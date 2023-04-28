@@ -4,18 +4,27 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <!--Pour le font family-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+
+    <!-- library importante -->
     <script src="https://unpkg.com/react@17.0.2/umd/react.development.js"></script>
     <script src="https://unpkg.com/react-dom@17.0.2/umd/react-dom.development.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.min.js"></script>
 
-    <title>Ma page React</title>
+    <link rel="stylesheet" type="text/css" href="/src/styles/HomePage.css"></link>
+    <link rel="stylesheet" type="text/css" href="/src/styles/App.css"></link>
+
+    <title>Acceuil</title>
   </head>
   <body>
     <div id="root"></div>
 
     <script type="text/babel" src="/src/components/HomePage.js"></script>
     <script type="text/babel">
-      ReactDOM.render(<Home />, document.getElementById("root"));
+    ReactDOM.render(<Home />, document.getElementById("root"));
     </script>
   </body>
 </html>
