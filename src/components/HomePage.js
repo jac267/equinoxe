@@ -32,7 +32,9 @@ function HomeVotreEntrepreneurGeneral() {
     <div class="section" id="votre-entrepreneur-general">
       <div id="votre-entrepreneur-generale-content">
         <div class="flexColumn">
-          <h1>Equinoxe JMP, votre entrepreneur général en Outaouais</h1>
+          <h1 class="section-title">
+            Equinoxe JMP, votre entrepreneur général en Outaouais
+          </h1>
           <p>
             Equinoxe JMP vous offre ses services pour vos travaux de génie civil
             et d’excavation à Gatineau. Notre équipe d’expérience peut répondre
@@ -82,7 +84,7 @@ function HomeButtonExplorer(props) {
 function HomeNosServices1() {
   return (
     <div id="home-nos-services1" class="flexColumn">
-      <h1>Nos services</h1>
+      <h1 class="section-title">Nos services</h1>
       <div>
         <div>
           <div

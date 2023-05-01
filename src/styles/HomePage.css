@@ -82,12 +82,6 @@ button {
   max-width: 1210px;
 }
 
-#votre-entrepreneur-generale-content h1 {
-  font-family: "Rubik", sans-serif;
-  font-size: 2.4rem !important;
-  font-weight: 600;
-  line-height: 1.25;
-}
 #votre-entrepreneur-generale-content > p {
   margin-top: 20px;
   display: block;
@@ -143,10 +137,19 @@ button {
 #home-nos-services1 {
   display: flex;
   align-items: center;
+  row-gap: 2.5rem;
+
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+#home-nos-services1 h1 {
+  font-family: "Rubik", sans-serif;
 }
 #home-nos-services1 > div {
   display: flex;
   flex-direction: row;
+  column-gap: 2.5rem;
 }
 
 #home-nos-services1 > div > div {
@@ -166,9 +169,6 @@ button {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
-
-  margin-left: auto !important;
-  margin-right: auto !important;
 }
 #home-nos-services1-image1 {
   background-image: url("/public/images/Kenworth\ 12\ Roues+LOGO.png");
@@ -188,4 +188,22 @@ button {
   background-position: 0px -70px;
   width: 272.5px;
   height: 164px;
+}
+
+#home-nos-services1 ul {
+  border: solid black 4px;
+  padding-top: 36px;
+  padding-bottom: 36px;
+  padding-left: 80px;
+  padding-right: 80px;
+
+  max-width: 415px !important;
+  height: 100%;
+
+  background-color: #f3f3f3;
+}
+
+#home-nos-services1 li {
+  font-size: 17.5px !important;
+  line-height: 1.65 !important;
 }
