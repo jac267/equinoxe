@@ -3,8 +3,11 @@
   background-size: cover;
   background-repeat: no-repeat;
 
-  min-width: 200vh;
+  min-width: 100vw;
   height: 85vh;
+
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 
 #filtre-confiez-nous-vos-projets {
@@ -58,4 +61,131 @@ button {
 
 #filtre-confiez-nous-vos-projets button {
   color: white !important;
+}
+
+#votre-entrepreneur-general {
+  background-color: #f3f3f3;
+}
+#votre-entrepreneur-generale-content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2.5rem;
+  text-align: center;
+
+  margin-left: auto !important;
+  margin-right: auto !important;
+  box-sizing: border-box;
+
+  padding-top: 60px;
+  padding-bottom: 90px;
+
+  max-width: 1210px;
+}
+
+#votre-entrepreneur-generale-content h1 {
+  font-family: "Rubik", sans-serif;
+  font-size: 2.4rem !important;
+  font-weight: 600;
+  line-height: 1.25;
+}
+#votre-entrepreneur-generale-content > p {
+  margin-top: 20px;
+  display: block;
+  text-align: justify;
+
+  font-weight: 500;
+}
+
+#votre-entrepreneur-generale-content div {
+  display: flex;
+  justify-content: center;
+  column-gap: 2.5rem;
+  row-gap: 10px;
+}
+.ButtonExplorerDiv {
+  padding-top: 90px;
+}
+
+.ButtonExplorer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  box-sizing: border-box;
+  line-height: 1.65;
+
+  padding: 20px 30px 30px 30px;
+  background-color: white;
+
+  border: solid black 2px;
+
+  min-width: 33%;
+}
+
+.ButtonExplorer h2 {
+  margin: 0px;
+}
+
+.ButtonExplorer p {
+  font-family: "Lora", serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.ButtonExplorer button {
+  color: white;
+  font-family: "Lora", serif;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+#home-nos-services1 {
+  display: flex;
+  align-items: center;
+}
+#home-nos-services1 > div {
+  display: flex;
+  flex-direction: row;
+}
+
+#home-nos-services1 > div > div {
+  display: flex;
+  flex-direction: column;
+}
+
+#home-nos-services1 > div > div > div {
+  display: flex;
+  flex-direction: row;
+  padding-top: 40px;
+  justify-content: space-between;
+}
+
+.home-nos-services1-images {
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+#home-nos-services1-image1 {
+  background-image: url("/public/images/Kenworth\ 12\ Roues+LOGO.png");
+  width: 585px;
+  height: 330px;
+}
+
+#home-nos-services1-image2 {
+  background-image: url("/public/images/Pelle\ Caterpillar\ 315-07.jpg");
+
+  width: 272.5px;
+  height: 164px;
+}
+
+#home-nos-services1-image3 {
+  background-image: url("/public/images/Pelle\ Hitachi.jpg");
+  background-position: 0px -70px;
+  width: 272.5px;
+  height: 164px;
 }

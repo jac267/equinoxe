@@ -8,3 +8,11 @@
   letter-spacing: 1px;
   line-height: 1.65;
 }
+
+.flexColumn {
+  flex-direction: column;
+}
+
+.flexRow {
+  flex-direction: row;
+}
