@@ -1,0 +1,79 @@
+#nav-bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+  background-size: 99%;
+  background-repeat: no-repeat;
+
+  height: 96px;
+
+  z-index: 100;
+}
+
+#nav-bar img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  object-fit: cover;
+  object-position: 0px 46%;
+}
+
+#nav-bar > div {
+  background-color: #f3f3f3;
+  opacity: 0.8;
+  height: 96px;
+
+  display: grid;
+}
+
+#logo {
+  grid-column-start: 0;
+  grid-column-end: 7;
+  grid-row-start: 0;
+  grid-row-end: 2;
+
+  background-size: cover;
+}
+#logo img {
+  width: 100px;
+}
+
+#telephone {
+  grid-column-start: 8;
+  grid-column-end: 9;
+  grid-row-start: 0;
+  grid-row-end: 1;
+}
+
+#email {
+  grid-column-start: 8;
+  grid-column-end: 9;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+#acceuil {
+  grid-column-start: 15;
+  grid-column-end: 16;
+  grid-row-start: 0;
+  grid-row-end: 2;
+}
+#notre-equipe {
+  grid-column-start: 16;
+  grid-column-end: 17;
+  grid-row-start: 0;
+  grid-row-end: 2;
+}
+#services {
+  grid-column-start: 17;
+  grid-column-end: 18;
+  grid-row-start: 0;
+  grid-row-end: 2;
+}
+#realisation {
+  grid-column-start: 18;
+  grid-column-end: 19;
+  grid-row-start: 0;
+  grid-row-end: 2;
+}

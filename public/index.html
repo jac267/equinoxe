@@ -26,12 +26,19 @@
     
     <link rel="stylesheet" type="text/css" href="../src/styles/HomePage.css"></link>
     <link rel="stylesheet" type="text/css" href="../src/styles/App.css"></link>
+    <link rel="stylesheet" type="text/css" href="../src/styles/Navbar.css"></link>
 
     <title>Acceuil</title>
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root-nav-bar"></div>
+    
+    <script type="text/babel" src="../src/components/Navbar.js"></script>
+    <script type="text/babel">
+      ReactDOM.render(<NavBar />, document.getElementById("root-nav-bar"));
+    </script>
 
+    <div id="root"></div>
     <script type="text/babel" src="../src/components/HomePage.js"></script>
     <script type="text/babel">
       ReactDOM.render(<Home />, document.getElementById("root"));
