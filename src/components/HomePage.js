@@ -5,6 +5,7 @@ function Home() {
       <HomeVotreEntrepreneurGeneral />
       <HomeNosServices1 />
       <HomeNosServices2 />
+      <AssociationsProfessionnelles />
     </div>
   );
 }
@@ -178,6 +179,44 @@ function HomeNosServices2() {
           {" "}
         </div>
       </div>
+    </div>
+  );
+}
+
+function AssociationsProfessionnelles() {
+  return (
+    <div id="associations-professionnelles" class="flexColumn">
+      <h2>Associations professionnelles</h2>
+      <LinkedText
+        text1="Licence de la Régie du bâtiment du Québec ("
+        href="https://www.rbq.gouv.qc.ca/accueil/"
+        texta="RBQ"
+        text2="): 83193425-10"
+      />
+      <LinkedText
+        text1="Association de la construction du Québec ("
+        href="https://www.acq.org/"
+        texta="ACQ"
+        text2=")"
+      />
+      <LinkedText
+        text1="Commission de la construction du Québec ("
+        href="https://www.ccq.org/fr-CA"
+        texta="CCQ"
+        text2=")"
+      />
+    </div>
+  );
+}
+
+function LinkedText(props) {
+  return (
+    <div>
+      <p>
+        {props.text1}
+        <a href={props.href}>{props.texta}</a>
+        {props.text2}
+      </p>
     </div>
   );
 }

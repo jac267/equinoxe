@@ -251,3 +251,31 @@ button {
   background-image: url("/public/images/dallc2b7e-2023-04-23-16.00.49-continuation-de-la-foret-e1682280218534.png");
   background-size: cover;
 }
+
+#associations-professionnelles {
+  background-color: #232b2b;
+  color: white;
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+
+  height: 318px;
+  width: 100%;
+  justify-content: center;
+}
+
+#associations-professionnelles a {
+  color: #898989;
+}
+
+#associations-professionnelles h2 {
+  font-size: 23px;
+  margin-block-end: 0em;
+  margin-block-start: 0em;
+}
+
+#map {
+  height: 400px; /* The height is 400 pixels */
+  width: 100%; /* The width is the width of the web page */
+  margin-top: 40px;
+}
