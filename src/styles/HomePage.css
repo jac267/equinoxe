@@ -207,3 +207,47 @@ button {
   font-size: 17.5px !important;
   line-height: 1.65 !important;
 }
+
+#home-big-nos-services2 {
+  display: flex;
+  justify-content: center;
+}
+#home-nos-services2 {
+  display: grid;
+  grid-template-columns: 62.5% 37.5%;
+  width: 64%;
+  position: relative;
+}
+
+#home-nos-services2 > div {
+  padding: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
+  height: 100%; /* Assure que les deux éléments ont la même hauteur */
+}
+#home-nos-services2-content {
+  background-color: #f3f3f3;
+}
+
+#home-nos-services2-content h2 {
+  font-weight: bold;
+  font-size: 23px;
+}
+
+#home-nos-services2-content h3 {
+  font-weight: bold;
+  font-size: 17px;
+  font-style: italic;
+}
+
+#home-nos-services2-content > div {
+  display: flex;
+}
+.Smallerpxfont {
+  font-size: 15px;
+}
+
+#home-nos-services2-image1 {
+  background-image: url("/public/images/dallc2b7e-2023-04-23-16.00.49-continuation-de-la-foret-e1682280218534.png");
+  background-size: cover;
+}
