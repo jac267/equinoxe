@@ -1,9 +1,9 @@
 #confiez-nous-vos-projets {
-  background-image: url("/public/images/Remplacement\ ponceau\ 4.jpg");
+  background-image: url("../public/images/Remplacement\ ponceau\ 4.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 
-  min-width: 100vw;
+  min-width: 100%;
   height: 85vh;
 
   margin-left: auto !important;
@@ -177,14 +177,14 @@ button {
 }
 
 #home-nos-services1-image2 {
-  background-image: url("/public/images/Pelle\ Caterpillar\ 315-07.jpg");
+  background-image: url("../public/images/Pelle\ Caterpillar\ 315-07.jpg");
 
   width: 272.5px;
   height: 164px;
 }
 
 #home-nos-services1-image3 {
-  background-image: url("/public/images/Pelle\ Hitachi.jpg");
+  background-image: url("../public/images/Pelle\ Hitachi.jpg");
   background-position: 0px -70px;
   width: 272.5px;
   height: 164px;
@@ -248,7 +248,7 @@ button {
 }
 
 #home-nos-services2-image1 {
-  background-image: url("/public/images/dallc2b7e-2023-04-23-16.00.49-continuation-de-la-foret-e1682280218534.png");
+  background-image: url("../public/images/dallc2b7e-2023-04-23-16.00.49-continuation-de-la-foret-e1682280218534.png");
   background-size: cover;
 }
 
