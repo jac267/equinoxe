@@ -22,11 +22,13 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.min.js"></script>
     
     
+    <!-- fa fa font -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    
     <link rel="stylesheet" type="text/css" href="../src/styles/HomePage.css"></link>
     <link rel="stylesheet" type="text/css" href="../src/styles/App.css"></link>
     <link rel="stylesheet" type="text/css" href="../src/styles/Navbar.css"></link>
+    <link rel="stylesheet" type="text/css" href="../src/styles/Footer.css"></link>
 
     <title>Acceuil</title>
   </head>
@@ -49,6 +51,12 @@
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA99UCpTLZnVqg39uf2MiTWpabPy3xSLg0&callback=initMap&v=weekly"
     defer
   ></script>
+
+  <div id="root-footer"></div>
+    <script type="text/babel" src="../src/components/Footer.js"></script>
+    <script type="text/babel">
+      ReactDOM.render(<Footer />, document.getElementById("root-footer"));
+    </script>
     
     
     
