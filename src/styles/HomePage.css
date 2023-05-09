@@ -154,23 +154,25 @@ button {
   font-family: "Rubik", sans-serif;
 }
 #home-nos-services1 > div {
+  width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  column-gap: 2.5rem;
+  justify-content: space-evenly;
 }
 
 #home-nos-services1 > div > div {
   display: flex;
   flex-direction: column;
+  height: 100%;
+  gap: 2.5rem;
+  margin: auto;
 }
 
 #home-nos-services1 > div > div > div {
   display: flex;
   flex-direction: row;
-  padding-top: 40px;
-  justify-content: space-between;
-  min-width: 585px;
+  gap: 2.5rem;
+  justify-content: space-evenly;
 }
 
 .home-nos-services1-images {
@@ -181,27 +183,33 @@ button {
 }
 #home-nos-services1-image1 {
   background-image: url("../../public/images/Kenworth\ 12\ Roues+LOGO.png");
-  width: 585px;
-  height: 330px;
+  max-width: 550px;
+  width: 42.5vw;
+  height: 25vw;
+  max-height: 330px;
 }
 
 #home-nos-services1-image2 {
   background-image: url("../../public/images/Pelle\ Caterpillar\ 315-07.jpg");
-
-  width: 272.5px;
+  background-size: cover;
+  width: 18.5vw;
+  max-width: 223px;
   height: 164px;
 }
 
 #home-nos-services1-image3 {
   background-image: url("../../public/images/Pelle\ Hitachi.jpg");
-  background-position: 0px -70px;
-  width: 272.5px;
+  background-size: cover;
+  background-position: 0px -2.5vw;
+
+  width: 18.5vw;
+  max-width: 223px;
   height: 164px;
 }
 
 #home-nos-services1 ul {
-  width: 15vw;
-  padding-left: 3vw;
+  width: 35vw;
+  max-width: 475px;
   border: solid black 4px;
   padding-top: 36px;
   padding-bottom: 36px;
@@ -217,15 +225,14 @@ button {
 }
 
 #home-big-nos-services2 {
-  max-width: 1210px;
-  padding-left: 40px;
-  padding-right: 40px;
   margin: auto;
 
   display: flex;
   justify-content: center;
+  background-color: #f3f3f3;
 }
 #home-nos-services2 {
+  max-width: 1210px;
   display: grid;
   grid-template-columns: 62.5% 37.5%;
   width: 100%;
@@ -233,13 +240,11 @@ button {
 }
 
 #home-nos-services2 > div {
-  padding: 20px;
-  padding-left: 60px;
-  padding-right: 60px;
   height: 100%; /* Assure que les deux éléments ont la même hauteur */
 }
 #home-nos-services2-content {
-  background-color: #f3f3f3;
+  padding-left: 40px;
+  padding-bottom: 40px;
 }
 
 #home-nos-services2-content h2 {
@@ -263,6 +268,8 @@ button {
 #home-nos-services2-image1 {
   background-image: url("../../public/images/dallc2b7e-2023-04-23-16.00.49-continuation-de-la-foret-e1682280218534.png");
   background-size: cover;
+  background-position: 70% 50%;
+  margin-right: 40px;
 }
 
 #associations-professionnelles {
