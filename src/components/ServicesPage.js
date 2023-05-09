@@ -89,7 +89,7 @@ function EquipementOfferts() {
     <div id="equipement-offerts-section">
       <div id="equipement-offerts" class="flexRow">
         <div id="equipement-offerts-list">
-          <h2>Notre équipement</h2>
+          <h2>Notre&nbsp;équipement</h2>
           <ul>
             <li>Pelles mécaniques de 14 à 50 tonnes</li>
             <li>Mini-pelle</li>
@@ -98,7 +98,7 @@ function EquipementOfferts() {
             <li>Béliers</li>
             <li>Rouleaux</li>
             <li>Camions 12 roues</li>
-            <li>Semi-remorques</li>
+            <li>Semi&#8209;remorques</li>
             <li>Hors-route</li>
           </ul>
         </div>
