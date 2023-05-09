@@ -94,7 +94,13 @@
   .navigation-buttons a {
     font-family: "Rubik", sans-serif;
     font-size: 15px !important;
-    padding-top: 2.75%;
+
+    color: #000;
+    font-style: normal;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
   }
 }
 
