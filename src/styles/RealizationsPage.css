@@ -1,5 +1,5 @@
 #BanniereRealisation {
-    background-image: url("/public/images/excavation1.JPEG");
+    background-image: url("../../public/images/excavation1.JPEG");
     min-height: 500px;
     block-size: fit-content;
     width: 100%;

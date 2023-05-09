@@ -34,62 +34,62 @@ function GallerieExcavation(){
         <div className="sub-container">
           <div className="grid" id="my-gallery1">
               <a
-              href="/public/images/excavation1.JPEG"
+              href="../../public/images/excavation1.JPEG"
               data-lightbox="excavation"
               data-title="Travaux d'excavation"
               className="img"
               id="img1"
               >
               <img
-                  src="/public/images/excavation1.JPEG"
+                  src="../../public/images/excavation1.JPEG"
                   alt=""
               />
               </a>
               <a
-              href="/public/images/excavation2.jpg"
+              href="../../public/images/excavation2.jpg"
               data-lightbox="excavation"
               data-title="Travaux d'excavation"
               className="img"
               id="img2"
               >
               <img
-                  src="/public/images/excavation2.jpg"
+                  src="../../public/images/excavation2.jpg"
                   alt=""
               />
               </a>
               <a
-              href="/public/images/excavation3.jpg"
+              href="../../public/images/excavation3.jpg"
               data-lightbox="excavation"
               data-title="Travaux d'excavation"
               className="img"
               id="img3"
               >
               <img
-                  src="/public/images/excavation3.jpg"
+                  src="../../public/images/excavation3.jpg"
                   alt=""
               />
               </a>
               <a
-              href="/public/images/excavation4.jpg"
+              href="../../public/images/excavation4.jpg"
               data-lightbox="excavation"
               data-title="Travaux d'excavation"
               className="img"
               id="img4"
               >
               <img
-                  src="/public/images/excavation4.jpg"
+                  src="../../public/images/excavation4.jpg"
                   alt=""
               />
               </a>
               <a
-              href="/public/images/excavation5.JPEG"
+              href="../../public/images/excavation5.JPEG"
               data-lightbox="excavation"
               data-title="Travaux d'excavation"
               className="img"
               id="img5"
               >
               <img
-                  src="/public/images/excavation5.JPEG"
+                  src="../../public/images/excavation5.JPEG"
                   alt=""
               />
               </a>
@@ -115,74 +115,74 @@ function GallerieGenieCivil(){
           </div>
           <div className="grid" id="my-gallery2">
               <a
-              href="/public/images/genie1.jpg"
+              href="../../public/images/genie1.jpg"
               data-lightbox="genie"
               data-title="Projets de génie civil"
               className="img"
               id="img6"
               >
               <img
-                  src="/public/images/genie1.jpg"
+                  src="../../public/images/genie1.jpg"
                   alt=""
               />
               </a>
               <a
-              href="/public/images/genie2.jpg"
+              href="../../public/images/genie2.jpg"
               data-lightbox="genie"
               data-title="Projets de génie civil"
               className="img"
               id="img7"
               >
               <img
-                  src="/public/images/genie2.jpg"
+                  src="../../public/images/genie2.jpg"
                   alt=""
               />
               </a>
               <a
-              href="/public/images/genie3.jpg"
+              href="../../public/images/genie3.jpg"
               data-lightbox="genie"
               data-title="Projets de génie civil"
               className="img"
               id="img8"
               >
               <img
-                  src="/public/images/genie3.jpg"
+                  src="../../public/images/genie3.jpg"
                   alt=""
               />
               </a>
               <a
-              href="/public/images/genie4.jpg"
+              href="../../public/images/genie4.jpg"
               data-lightbox="genie"
               data-title="Projets de génie civil"
               className="img"
               id="img9"
               >
               <img
-                  src="/public/images/genie4.jpg"
+                  src="../../public/images/genie4.jpg"
                   alt=""
               />
               </a>
               <a
-              href="/public/images/genie5.png"
+              href="../../public/images/genie5.png"
               data-lightbox="genie"
               data-title="Projets de génie civil"
               className="img"
               id="img10"
               >
               <img
-                  src="/public/images/genie5.png"
+                  src="../../public/images/genie5.png"
                   alt=""
               />
               </a>
               <a
-              href="/public/images/genie6.jpg"
+              href="../../public/images/genie6.jpg"
               data-lightbox="genie"
               data-title="Projets de génie civil"
               className="img"
               id="img11"
               >
               <img
-                  src="/public/images/genie6.jpg"
+                  src="../../public/images/genie6.jpg"
                   alt=""
               />
               </a>
