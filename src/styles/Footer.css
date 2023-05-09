@@ -22,7 +22,7 @@
   display: flex;
   padding-top: 2vw;
   padding-bottom: 2vw;
-  gap: 2.5rem;
+  gap: 2.5vw;
 }
 
 #footer-info1 strong {
@@ -34,21 +34,23 @@
 #footer-info1 p {
   font-size: 15px;
   font-family: "Rubik", sans-serif;
+  height: 100%;
 }
 
 #footer-addresse {
   text-align: center;
+  align-self: center;
 }
 
 #footer-telephone-couriel {
   text-align: left;
+  align-self: center;
 }
 #footer-info2 {
   display: flex;
   padding-top: 0.67rem;
-  padding-right: 0.67rem;
+
   padding-bottom: 0.67rem;
-  padding-left: 0.67rem;
 
   justify-content: space-around;
   gap: 1rem;
@@ -59,11 +61,24 @@
 
   justify-content: space-between;
 
-  gap: 2.5rem;
+  gap: 2.5vw;
 }
 
 #footer-zone-de-services-title {
   padding-right: 35px;
+}
+
+#footer-zone-de-services {
+  align-items: center;
+}
+#footer-zone-de-services p {
+  min-width: 105px;
+}
+#footer-heure-ouverture {
+  align-items: center;
+}
+#footer-heure-ouverture p {
+  min-width: 105px;
 }
 
 #footer-button {
@@ -72,7 +87,7 @@
   flex-wrap: wrap;
   align-items: center;
 
-  column-gap: 2.5rem;
+  column-gap: 2.5vw;
 }
 
 #footer-button a {

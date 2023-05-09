@@ -19,7 +19,9 @@ function Footer() {
       <div id="footer-info2" className="flexColumn">
         <div id="footer-zone-de-services" className="flexRow">
           <p>
-            <strong id="zoter-zone-de-services-title">Zone de service</strong>
+            <strong id="zoter-zone-de-services-title">
+              Zone de&nbsp;service
+            </strong>
           </p>
           <p>Outaouais, Ottawa, Gatineau</p>
         </div>
@@ -28,7 +30,8 @@ function Footer() {
             <strong>Heures d’ouverture</strong>
           </p>
           <p>
-            Lundi – Jeudi: 08:00 – 17:30<br></br>Vendredi: 08:00 – 12:00
+            Lundi&#8209;Jeudi: 08:00&#8209;17:30<br></br>Vendredi:
+            08:00&#8209;12:00
           </p>
         </div>
       </div>
