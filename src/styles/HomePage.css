@@ -76,7 +76,9 @@ button {
   padding-top: 60px;
   padding-bottom: 90px;
 
-  max-width: 1210px;
+  max-width: 1290px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 #votre-entrepreneur-generale-content > p {
@@ -95,6 +97,7 @@ button {
 }
 .ButtonExplorerDiv {
   padding-top: 90px;
+  column-gap: 2.5vw !important;
 }
 
 .ButtonExplorer {
@@ -106,7 +109,7 @@ button {
   box-sizing: border-box;
   line-height: 1.65;
 
-  padding: 20px 30px 30px 30px;
+  padding: 20px 2.25vw 30px 2.25vw;
   background-color: white;
 
   border: solid black 2px;
@@ -123,6 +126,7 @@ button {
   font-family: "Lora", serif;
   font-size: 16px;
   font-weight: 500;
+  min-height: 105px;
 }
 
 .ButtonExplorer button {
@@ -133,6 +137,11 @@ button {
 }
 
 #home-nos-services1 {
+  max-width: 1290px;
+  padding-left: 40px;
+  padding-right: 40px;
+
+  margin: auto;
   display: flex;
   align-items: center;
   row-gap: 2.5rem;
@@ -147,6 +156,7 @@ button {
 #home-nos-services1 > div {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
   column-gap: 2.5rem;
 }
 
@@ -160,6 +170,7 @@ button {
   flex-direction: row;
   padding-top: 40px;
   justify-content: space-between;
+  min-width: 585px;
 }
 
 .home-nos-services1-images {
@@ -189,13 +200,12 @@ button {
 }
 
 #home-nos-services1 ul {
+  width: 15vw;
+  padding-left: 3vw;
   border: solid black 4px;
   padding-top: 36px;
   padding-bottom: 36px;
-  padding-left: 80px;
-  padding-right: 80px;
 
-  max-width: 415px !important;
   height: 100%;
 
   background-color: #f3f3f3;
@@ -207,13 +217,18 @@ button {
 }
 
 #home-big-nos-services2 {
+  max-width: 1210px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin: auto;
+
   display: flex;
   justify-content: center;
 }
 #home-nos-services2 {
   display: grid;
   grid-template-columns: 62.5% 37.5%;
-  width: 64%;
+  width: 100%;
   position: relative;
 }
 

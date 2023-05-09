@@ -51,19 +51,19 @@ function HomeVotreEntrepreneurGeneral() {
           <HomeButtonExplorer
             title="Projets&nbsp;en&nbsp;tout&nbsp;genre"
             text="Bénéficiez de nos gestionnaires de projets pour tous vos travaux."
-            buttonText="Notre expertise"
+            buttonText="Notre&nbsp;expertise"
             href=""
           />
           <HomeButtonExplorer
             title="Transport&nbsp;et&nbsp;location"
-            text="Nous mettons à votre disposition une gamme de machineries lourdes."
-            buttonText="Nos solutions"
+            text="Nous mettons à votre disposition une gamme de machineries&nbsp;lourdes."
+            buttonText="Nos&nbsp;solutions"
             href=""
           />
           <HomeButtonExplorer
             title="Estimation&nbsp;gratuite"
             text="Notre équipe peut vous aider avec tous vos projets."
-            buttonText="Notre expertise"
+            buttonText="Contactez&nbsp;nous"
             href=""
           />
         </div>
