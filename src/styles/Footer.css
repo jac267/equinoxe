@@ -2,10 +2,12 @@
   display: flex;
   background-color: #898989;
   color: white;
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
+  padding-left: 2.5vw;
+  padding-right: 2.5vw;
   justify-content: space-between;
   font-weight: 400;
+
+  gap: 1.5vw;
 }
 #footer strong {
   font-size: 15px;
@@ -22,7 +24,7 @@
   display: flex;
   padding-top: 2vw;
   padding-bottom: 2vw;
-  gap: 2.5vw;
+  gap: 1.5vw;
 }
 
 #footer-info1 strong {
@@ -34,7 +36,6 @@
 #footer-info1 p {
   font-size: 15px;
   font-family: "Rubik", sans-serif;
-  height: 100%;
 }
 
 #footer-addresse {
@@ -46,6 +47,7 @@
   text-align: left;
   align-self: center;
 }
+
 #footer-info2 {
   display: flex;
   padding-top: 0.67rem;
@@ -53,7 +55,7 @@
   padding-bottom: 0.67rem;
 
   justify-content: space-around;
-  gap: 1rem;
+  gap: 1.5vw;
 }
 
 #footer-info2 div {
@@ -61,7 +63,7 @@
 
   justify-content: space-between;
 
-  gap: 2.5vw;
+  gap: 1.5vw;
 }
 
 #footer-zone-de-services-title {
@@ -72,22 +74,24 @@
   align-items: center;
 }
 #footer-zone-de-services p {
-  min-width: 105px;
+  min-width: 100px;
 }
 #footer-heure-ouverture {
   align-items: center;
 }
 #footer-heure-ouverture p {
-  min-width: 105px;
+  min-width: 100px;
 }
 
 #footer-button {
+  position: relative;
   text-align: start;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
 
-  column-gap: 2.5vw;
+  column-gap: 1.5vw;
+  left: -1%;
 }
 
 #footer-button a {
