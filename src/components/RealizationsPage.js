@@ -1,11 +1,8 @@
-import PhotoSwipeLightbox from 'https://unpkg.com/photoswipe/dist/photoswipe-lightbox.esm.js';
-
 function Realisations() {
     return (
       <div>
         <BanniereRealisation />
         <GallerieExcavation />
-        <GallerieGenieCivil />
       </div>
     );
 }
@@ -14,7 +11,7 @@ function BanniereRealisation() {
     return (
       <div id="BanniereRealisation">
         <div id="filtre">
-          <div id="info" class="flexColumn">
+          <div id="info" className="flexColumn">
             <h2>Réalisations</h2>
             <p>
               Equinoxe JMP est heureux de vous présenter quelques travaux et projets récemment réalisés avec succès pour nos clients résidentiels, commerciaux et institutionnels.
@@ -32,12 +29,12 @@ function BanniereRealisation() {
 
 function GallerieExcavation(){
     return (
-        <div class="pswp-gallery" id="my-gallery">
+        <div className="pswp-gallery" id="my-gallery">
             <a
             href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/1/img-2500.jpg"
-            data-pswp-width="1875"
-            data-pswp-height="2500"
-            target="_blank"
+            data-lightbox="1875"
+            data-title="Image 1"
+            className="img"
             >
             <img
                 src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/1/img-200.jpg"
@@ -46,9 +43,9 @@ function GallerieExcavation(){
             </a>
             <a
             href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-2500.jpg"
-            data-pswp-width="1669"
-            data-pswp-height="2500"
-            target="_blank"
+            data-lightbox="1875"
+            data-title="Image 2"
+            className="img"
             >
             <img
                 src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-200.jpg"
@@ -57,9 +54,9 @@ function GallerieExcavation(){
             </a>
             <a
             href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-2500.jpg"
-            data-pswp-width="2500"
-            data-pswp-height="1666"
-            target="_blank"
+            data-lightbox="1875"
+            data-title="Image 3"
+            className="img"
             >
             <img
                 src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg"
@@ -71,49 +68,6 @@ function GallerieExcavation(){
 }
 
 function GallerieGenieCivil(){
-    return (
-        <div class="pswp-gallery" id="my-gallery">
-            <a
-            href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/1/img-2500.jpg"
-            data-pswp-width="1875"
-            data-pswp-height="2500"
-            target="_blank"
-            >
-            <img
-                src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/1/img-200.jpg"
-                alt=""
-            />
-            </a>
-            <a
-            href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-2500.jpg"
-            data-pswp-width="1669"
-            data-pswp-height="2500"
-            target="_blank"
-            >
-            <img
-                src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-200.jpg"
-                alt=""
-            />
-            </a>
-            <a
-            href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-2500.jpg"
-            data-pswp-width="2500"
-            data-pswp-height="1666"
-            target="_blank"
-            >
-            <img
-                src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg"
-                alt=""
-            />
-            </a>
-        </div>
+    return (0
       );
 }
-
-const lightbox = new PhotoSwipeLightbox({
-    gallery: '#my-gallery',
-    children: 'a',
-    pswpModule: () => import('https://unpkg.com/photoswipe'),
-  });
-  
-  lightbox.init();

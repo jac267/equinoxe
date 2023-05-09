@@ -1,7 +1,7 @@
 function Footer() {
   return (
-    <div id="footer" class="flexRow">
-      <div id="footer-info1" class="flexRow">
+    <div id="footer" className="flexRow">
+      <div id="footer-info1" className="flexRow">
         <p id="footer-addresse">
           <strong>
             Equinoxe JMP<br></br>
@@ -16,14 +16,14 @@ function Footer() {
           <strong>Courriel:</strong>&nbsp;info@equinoxejmp.com
         </p>
       </div>
-      <div id="footer-info2" class="flexColumn">
-        <div id="footer-zone-de-services" class="flexRow">
+      <div id="footer-info2" className="flexColumn">
+        <div id="footer-zone-de-services" className="flexRow">
           <p>
             <strong id="zoter-zone-de-services-title">Zone de service</strong>
           </p>
           <p>Outaouais, Ottawa, Gatineau</p>
         </div>
-        <div id="footer-heure-ouverture" class="flexRow">
+        <div id="footer-heure-ouverture" className="flexRow">
           <p>
             <strong>Heures d’ouverture</strong>
           </p>
@@ -33,16 +33,16 @@ function Footer() {
         </div>
       </div>
 
-      <div id="footer-button" class="flexRow">
+      <div id="footer-button" className="flexRow">
         <a
           id="facebook-anchor"
           href="https://www.facebook.com/equinoxejmp"
-          class="social-media-button"
+          className="social-media-button"
         >
-          <i class="fa fa-facebook" aria-hidden="true"></i>
+          <i className="fa fa-facebook" aria-hidden="true"></i>
         </a>
         <a href="mailto:info@equinoxejmp.com" id="email-anchor">
-          <i class="fa fa-envelope" aria-hidden="true"></i>
+          <i className="fa fa-envelope" aria-hidden="true"></i>
         </a>
       </div>
     </div>

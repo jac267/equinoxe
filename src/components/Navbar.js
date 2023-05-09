@@ -2,7 +2,7 @@ function NavBar() {
   return (
     <div id="nav-bar">
       <img src="../public/images/galerie3.jpg"></img>
-      <div class="flexRow">
+      <div className="flexRow">
         <a id="logo">
           <div></div>
         </a>
