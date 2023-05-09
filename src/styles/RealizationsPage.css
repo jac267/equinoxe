@@ -1,19 +1,21 @@
 #BanniereRealisation {
-    background-image: url("../../public/images/gestion-projets.JPG");
-    padding-top: 96px;
-    height: 404px;
+    background-image: url("/public/images/IMG_7834.JPEG");
+    min-height: 500px;
+    block-size: fit-content;
     width: 100%;
-  
     background-size: cover;
+    margin-top: 94px;
+    background-position-y: 20%;
   }
   
 #filtre {
-    position: relative;
-    top: -1%;
-    background-color: rgba(0, 0, 0, 0.5);
-
-    height: 101.5%;
-    width: 100%;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.5);
+  min-height: 500px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 #info {
@@ -23,6 +25,8 @@
     justify-content: space-around;
     vertical-align: middle;
     padding-block-start: 2.5rem;
+    width: 50%;
+    padding-bottom: 2.5rem;
   }
 
 #info h2 {
