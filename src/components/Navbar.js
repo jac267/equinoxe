@@ -12,10 +12,34 @@ function NavBar() {
         </div>
 
         <div id="navigation-button">
-          <a id="acceuil">ACCEUIL</a>
-          <a id="notre-equipe">NOTRE ÉQUIPE</a>
-          <a id="services">SERVICES</a>
-          <a id="realisation">RÉALISATION</a>
+          <div class="navigation-buttons flexRow">
+            <a id="acceuil" class="text-align-left" href="../public/index.html">
+              ACCEUIL
+            </a>
+            <a
+              id="notre-equipe"
+              class="text-align-right"
+              href="../public/notre-equipe.html"
+            >
+              NOTRE&nbsp;ÉQUIPE
+            </a>
+          </div>
+          <div class="navigation-buttons flexRow">
+            <a
+              id="services"
+              class="text-align-left"
+              href="../public/services.html"
+            >
+              SERVICES
+            </a>
+            <a
+              id="realisation"
+              class="text-align-right"
+              href="../public/realisations.html"
+            >
+              RÉALISATION
+            </a>
+          </div>
         </div>
       </div>
     </div>

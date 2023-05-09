@@ -1,90 +1,102 @@
-#nav-bar {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  align-items: center;
-  background-size: 100%;
-  background-repeat: no-repeat;
+@media screen and (min-width: 800px) {
+  #nav-bar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    align-items: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
 
-  height: 96px;
+    height: 96px;
 
-  z-index: 100;
+    z-index: 100;
+  }
+
+  #nav-bar img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    object-fit: cover;
+    object-position: 0px 46%;
+  }
+
+  #nav-bar > div {
+    background-color: #f3f3f3;
+    opacity: 0.8;
+    height: 96px;
+    display: flex;
+
+    vertical-align: middle;
+    border: solid 2px #898989;
+  }
+
+  #logo {
+    position: relative;
+
+    width: 25%;
+    height: 96px;
+
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+
+  #logo div {
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    background-image: url("../../public/images/cropped-logo-equinox-9.png");
+    height: auto;
+    width: 100%;
+
+    max-width: 431px;
+    min-width: 228px;
+    margin-left: 2.5vw;
+    aspect-ratio: auto 431 / 57;
+  }
+
+  #contact {
+    padding: 20px;
+    display: flex;
+
+    flex-direction: column;
+
+    font-weight: 600;
+    margin-left: 50px;
+    font-family: "Rubik", sans-serif;
+    font-size: 20px !important;
+  }
+
+  #realisation {
+  }
+
+  #navigation-button {
+    position: relative;
+    right: 0px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: right;
+
+    column-gap: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
+  .navigation-buttons {
+    display: flex;
+    width: auto;
+    width: 255px;
+    justify-content: space-around;
+    column-gap: 2.5rem;
+  }
+  .navigation-buttons a {
+    font-family: "Rubik", sans-serif;
+    font-size: 15px !important;
+    padding-top: 2.75%;
+  }
 }
 
-#nav-bar img {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  z-index: -1;
-  object-fit: cover;
-  object-position: 0px 46%;
-}
-
-#nav-bar > div {
-  background-color: #f3f3f3;
-  opacity: 0.8;
-  height: 96px;
-  display: flex;
-
-  vertical-align: middle;
-  border: solid 2px #898989;
-}
-
-#logo {
-  position: relative;
-
-  width: 25%;
-  height: 96px;
-
-  display: flex;
-  justify-content: space-around;
-  flex-direction: column;
-}
-
-#logo div {
-  background-size: contain;
-  background-repeat: no-repeat;
-
-  background-image: url("../../public/images/cropped-logo-equinox-9.png");
-  height: auto;
-  width: 100%;
-
-  max-width: 431px;
-  margin-left: 2.5vw;
-  aspect-ratio: auto 431 / 57;
-}
-
-#contact {
-  padding: 20px;
-  display: flex;
-
-  flex-direction: column;
-
-  font-weight: 600;
-  margin-left: 50px;
-  font-family: "Rubik", sans-serif;
-  font-size: 20px !important;
-}
-
-#realisation {
-}
-
-#navigation-button {
-  position: relative;
-  right: 0px;
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: right;
-
-  column-gap: 2.5rem;
-  padding-right: 2.5rem;
-}
-
-#navigation-button a {
-  text-align: center;
-  font-family: "Rubik", sans-serif;
-  font-size: 15px !important;
-  padding-top: 2.75%;
+@media screen and (max-width: 800px) {
 }

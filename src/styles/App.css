@@ -31,3 +31,10 @@ body {
 .linked-text {
   color: #898989;
 }
+
+.text-align-right {
+  text-align: right;
+}
+.text-align-left {
+  text-align: left;
+}
