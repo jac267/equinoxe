@@ -50,21 +50,26 @@
 
 
 .container{
-  width: 800px;
+  width: 1000px;
   margin: auto;
 }
 
-.subcontainer{
+.sub-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
   width: 90%;
   margin: auto;
 }
 
 .grid{
   display: grid;
+  width: 80%;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 1rem;
-  margin-top: 2rem;
   overflow-x: hidden;
+  margin: 2rem;
 }
 
 img{
@@ -79,8 +84,17 @@ img{
 }
 
 
-@media(max-width:800px){
+@media(max-width:1000px){
   .container{
     width: 100%;
   }
+}
+
+.subtitle{
+  width: 20%;
+  text-align: center;
+}
+
+.subtitle hr{
+  border-top: 1px solid #898989;
 }

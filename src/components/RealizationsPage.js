@@ -88,6 +88,11 @@ function GallerieExcavation(){
               />
               </a>
           </div>
+          <div className="subtitle">
+            <hr></hr>
+            <h3>Travaux d'excavation</h3>
+            <hr></hr>
+          </div>
         </div>
       </div>
       );
