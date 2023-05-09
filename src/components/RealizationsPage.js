@@ -3,6 +3,7 @@ function Realisations() {
       <div>
         <BanniereRealisation />
         <GallerieExcavation />
+        <GallerieGenieCivil />
       </div>
     );
 }
@@ -31,12 +32,13 @@ function GallerieExcavation(){
     return (
       <div className="container" >
         <div className="sub-container">
-          <div className="grid" id="my-gallery">
+          <div className="grid" id="my-gallery1">
               <a
               href="/public/images/excavation1.JPEG"
               data-lightbox="excavation"
               data-title="Travaux d'excavation"
               className="img"
+              id="img1"
               >
               <img
                   src="/public/images/excavation1.JPEG"
@@ -48,6 +50,7 @@ function GallerieExcavation(){
               data-lightbox="excavation"
               data-title="Travaux d'excavation"
               className="img"
+              id="img2"
               >
               <img
                   src="/public/images/excavation2.jpg"
@@ -59,6 +62,7 @@ function GallerieExcavation(){
               data-lightbox="excavation"
               data-title="Travaux d'excavation"
               className="img"
+              id="img3"
               >
               <img
                   src="/public/images/excavation3.jpg"
@@ -70,6 +74,7 @@ function GallerieExcavation(){
               data-lightbox="excavation"
               data-title="Travaux d'excavation"
               className="img"
+              id="img4"
               >
               <img
                   src="/public/images/excavation4.jpg"
@@ -81,6 +86,7 @@ function GallerieExcavation(){
               data-lightbox="excavation"
               data-title="Travaux d'excavation"
               className="img"
+              id="img5"
               >
               <img
                   src="/public/images/excavation5.JPEG"
@@ -99,6 +105,89 @@ function GallerieExcavation(){
 }
 
 function GallerieGenieCivil(){
-    return (0
+    return (
+      <div className="container" >
+        <div className="sub-container">
+          <div className="subtitle">
+            <hr></hr>
+            <h3>Projets de génie civil</h3>
+            <hr></hr>
+          </div>
+          <div className="grid" id="my-gallery2">
+              <a
+              href="/public/images/genie1.jpg"
+              data-lightbox="genie"
+              data-title="Projets de génie civil"
+              className="img"
+              id="img6"
+              >
+              <img
+                  src="/public/images/genie1.jpg"
+                  alt=""
+              />
+              </a>
+              <a
+              href="/public/images/genie2.jpg"
+              data-lightbox="genie"
+              data-title="Projets de génie civil"
+              className="img"
+              id="img7"
+              >
+              <img
+                  src="/public/images/genie2.jpg"
+                  alt=""
+              />
+              </a>
+              <a
+              href="/public/images/genie3.jpg"
+              data-lightbox="genie"
+              data-title="Projets de génie civil"
+              className="img"
+              id="img8"
+              >
+              <img
+                  src="/public/images/genie3.jpg"
+                  alt=""
+              />
+              </a>
+              <a
+              href="/public/images/genie4.jpg"
+              data-lightbox="genie"
+              data-title="Projets de génie civil"
+              className="img"
+              id="img9"
+              >
+              <img
+                  src="/public/images/genie4.jpg"
+                  alt=""
+              />
+              </a>
+              <a
+              href="/public/images/genie5.png"
+              data-lightbox="genie"
+              data-title="Projets de génie civil"
+              className="img"
+              id="img10"
+              >
+              <img
+                  src="/public/images/genie5.png"
+                  alt=""
+              />
+              </a>
+              <a
+              href="/public/images/genie6.jpg"
+              data-lightbox="genie"
+              data-title="Projets de génie civil"
+              className="img"
+              id="img11"
+              >
+              <img
+                  src="/public/images/genie6.jpg"
+                  alt=""
+              />
+              </a>
+          </div>
+        </div>
+      </div>
       );
 }
