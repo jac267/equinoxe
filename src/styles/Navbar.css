@@ -17,14 +17,13 @@
   width: 100%;
   z-index: -1;
   object-fit: cover;
-  object-position: -16px 46%;
+  object-position: 0px 46%;
 }
 
 #nav-bar > div {
   background-color: #f3f3f3;
   opacity: 0.8;
   height: 96px;
-  margin-right: 16px;
   display: flex;
 
   vertical-align: middle;

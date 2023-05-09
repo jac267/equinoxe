@@ -9,6 +9,10 @@
   line-height: 1.65;
 }
 
+body {
+  margin: 0px;
+}
+
 .flexColumn {
   flex-direction: column;
 }
