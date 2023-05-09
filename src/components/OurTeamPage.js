@@ -51,7 +51,7 @@ function OrganisationAffilier() {
       ></img>
       <div id="organisation-regie_du_batiment-div" class="flexColumn">
         <img src="../public/images/Logo_officiel_de_la_Régie_du_bâtiment_du_Québec.png"></img>
-        <strong>Licence RBQ: #83193425-10</strong>
+        <strong>Licence&nbsp;RBQ:&nbsp;#83193425&#8209;10</strong>
       </div>
       <img
         id="organisation-WSIB-img"
