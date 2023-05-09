@@ -1,5 +1,5 @@
 #BanniereRealisation {
-    background-image: url("/public/images/IMG_7834.JPEG");
+    background-image: url("/public/images/excavation1.JPEG");
     min-height: 500px;
     block-size: fit-content;
     width: 100%;
@@ -46,4 +46,41 @@
     opacity: 1;
     z-index: 2;
     color: white;
+}
+
+
+.container{
+  width: 800px;
+  margin: auto;
+}
+
+.subcontainer{
+  width: 90%;
+  margin: auto;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1rem;
+  margin-top: 2rem;
+  overflow-x: hidden;
+}
+
+img{
+  width: 100%;
+  height: auto;
+  background-position: center;
+}
+
+.img:nth-child(5){
+  grid-row: 1/3;
+  grid-column: 3/5;
+}
+
+
+@media(max-width:800px){
+  .container{
+    width: 100%;
+  }
 }

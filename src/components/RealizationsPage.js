@@ -29,41 +29,67 @@ function BanniereRealisation() {
 
 function GallerieExcavation(){
     return (
-        <div className="pswp-gallery" id="my-gallery">
-            <a
-            href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/1/img-2500.jpg"
-            data-lightbox="1875"
-            data-title="Image 1"
-            className="img"
-            >
-            <img
-                src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/1/img-200.jpg"
-                alt=""
-            />
-            </a>
-            <a
-            href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-2500.jpg"
-            data-lightbox="1875"
-            data-title="Image 2"
-            className="img"
-            >
-            <img
-                src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-200.jpg"
-                alt=""
-            />
-            </a>
-            <a
-            href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-2500.jpg"
-            data-lightbox="1875"
-            data-title="Image 3"
-            className="img"
-            >
-            <img
-                src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg"
-                alt=""
-            />
-            </a>
+      <div className="container" >
+        <div className="sub-container">
+          <div className="grid" id="my-gallery">
+              <a
+              href="/public/images/excavation1.JPEG"
+              data-lightbox="excavation"
+              data-title="Travaux d'excavation"
+              className="img"
+              >
+              <img
+                  src="/public/images/excavation1.JPEG"
+                  alt=""
+              />
+              </a>
+              <a
+              href="/public/images/excavation2.jpg"
+              data-lightbox="excavation"
+              data-title="Travaux d'excavation"
+              className="img"
+              >
+              <img
+                  src="/public/images/excavation2.jpg"
+                  alt=""
+              />
+              </a>
+              <a
+              href="/public/images/excavation3.jpg"
+              data-lightbox="excavation"
+              data-title="Travaux d'excavation"
+              className="img"
+              >
+              <img
+                  src="/public/images/excavation3.jpg"
+                  alt=""
+              />
+              </a>
+              <a
+              href="/public/images/excavation4.jpg"
+              data-lightbox="excavation"
+              data-title="Travaux d'excavation"
+              className="img"
+              >
+              <img
+                  src="/public/images/excavation4.jpg"
+                  alt=""
+              />
+              </a>
+              <a
+              href="/public/images/excavation5.JPEG"
+              data-lightbox="excavation"
+              data-title="Travaux d'excavation"
+              className="img"
+              >
+              <img
+                  src="/public/images/excavation5.JPEG"
+                  alt=""
+              />
+              </a>
+          </div>
         </div>
+      </div>
       );
 }
 
