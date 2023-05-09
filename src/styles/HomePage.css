@@ -102,7 +102,7 @@ button {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: justify;
+  text-align: center;
   box-sizing: border-box;
   line-height: 1.65;
 
@@ -111,11 +111,12 @@ button {
 
   border: solid black 2px;
 
-  min-width: 33%;
+  width: 33%;
 }
 
 .ButtonExplorer h2 {
   margin: 0px;
+  text-align: center;
 }
 
 .ButtonExplorer p {

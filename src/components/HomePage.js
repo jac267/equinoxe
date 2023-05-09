@@ -49,19 +49,19 @@ function HomeVotreEntrepreneurGeneral() {
 
         <div class="flexRow ButtonExplorerDiv">
           <HomeButtonExplorer
-            title="Projets en tout genre"
+            title="Projets&nbsp;en&nbsp;tout&nbsp;genre"
             text="Bénéficiez de nos gestionnaires de projets pour tous vos travaux."
             buttonText="Notre expertise"
             href=""
           />
           <HomeButtonExplorer
-            title="Transport et location"
+            title="Transport&nbsp;et&nbsp;location"
             text="Nous mettons à votre disposition une gamme de machineries lourdes."
             buttonText="Nos solutions"
             href=""
           />
           <HomeButtonExplorer
-            title="Estimation gratuite"
+            title="Estimation&nbsp;gratuite"
             text="Notre équipe peut vous aider avec tous vos projets."
             buttonText="Notre expertise"
             href=""
