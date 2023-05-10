@@ -192,3 +192,47 @@
   font-weight: 500;
   font-size: 17px;
 }
+
+@media (max-width: 800px) {
+  #ServicesOfferts-info {
+    width: 80%;
+  }
+  #ServicesOfferts-info > div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  #ServicesOfferts-info > div > div {
+    width: 100%;
+  }
+  #equipement-offerts {
+    display: block;
+  }
+
+  #equipement-offerts-visuel > div {
+    justify-content: space-around;
+  }
+  #equipement-offerts-visuel img {
+    width: 25vw;
+    height: 36vw;
+    min-height: 10px;
+  }
+  #equipement-offerts-list {
+    position: relative;
+    top: 0%;
+  }
+  #affaire-avec-nous-content {
+    text-align: left;
+    width: 90%;
+  }
+  #affaire-avec-nous-content h2 {
+    font-size: 27.5px;
+  }
+  #affaire-avec-nous-content a {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 9.5px;
+    padding-bottom: 9.5px;
+  }
+}
