@@ -12,29 +12,29 @@ function NavBar() {
         </div>
 
         <div id="navigation-button">
-          <div class="navigation-buttons flexRow">
-            <a id="acceuil" class="text-align-left" href="../public/index.html">
+          <div className="navigation-buttons flexRow">
+            <a id="acceuil" className="text-align-left" href="../public/index.html">
               ACCEUIL
             </a>
             <a
               id="notre-equipe"
-              class="text-align-right"
+              className="text-align-right"
               href="../public/notre-equipe.html"
             >
               NOTRE&nbsp;ÉQUIPE
             </a>
           </div>
-          <div class="navigation-buttons flexRow">
+          <div className="navigation-buttons flexRow">
             <a
               id="services"
-              class="text-align-left"
+              className="text-align-left"
               href="../public/services.html"
             >
               SERVICES
             </a>
             <a
               id="realisation"
-              class="text-align-right"
+              className="text-align-right"
               href="../public/realisations.html"
             >
               RÉALISATION
@@ -42,6 +42,20 @@ function NavBar() {
           </div>
         </div>
       </div>
+      <div id="menuToggle">
+        <input type="checkbox"/>
+        <span></span>
+        <span></span>
+        <span></span>
+      
+        <ul id="menu">
+          <a href="#"><li>Home</li></a>
+          <a href="#"><li>About</li></a>
+          <a href="#"><li>Info</li></a>
+          <a href="#"><li>Contact</li></a>
+        </ul>
+      </div>
     </div>
   );
 }
+
