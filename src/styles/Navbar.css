@@ -101,17 +101,8 @@
 
 @media (max-width: 800px) {
   #logo div {
-    background-size: contain;
-    background-repeat: no-repeat;
-
-    background-image: url("../../public/images/cropped-logo-equinox-9.png");
-    height: auto;
-    width: 100%;
-
     max-width: 431px;
     min-width: 50vw;
-    margin-left: 2.5vw;
-    aspect-ratio: auto 431 / 57;
   }
 
   #navigation-button {
