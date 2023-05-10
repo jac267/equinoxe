@@ -19,7 +19,7 @@ function HomeConfiezNousVosProjets() {
           <p>
             Nos spécialistes en génie civil et travaux de voirie vous proposent
             <br></br>
-            des solutions résidentielles commericales et institutionnelles
+            des solutions résidentielles commerciales et institutionnelles
             adaptées à vos besoins
           </p>
           <button>Contactez&#8209;nous</button>
