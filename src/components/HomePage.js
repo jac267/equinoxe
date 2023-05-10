@@ -142,7 +142,7 @@ function HomeNosServices2() {
             besoins du client.
           </p>
           <h3>Choisir Equinoxe JMP, c’est opter pour :</h3>
-          <div className="flexRow">
+          <div id="home-nos-services2-ul-contaner" className="flexRow">
             <ul>
               <li>un partenariat d’affaires</li>
 
@@ -178,9 +178,7 @@ function HomeNosServices2() {
         <div
           id="home-nos-services2-image1"
           className="home-nos-services2-images"
-        >
-          {" "}
-        </div>
+        ></div>
       </div>
     </div>
   );

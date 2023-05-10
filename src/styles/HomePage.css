@@ -430,4 +430,38 @@ button {
     height: 100%;
     background-color: #f3f3f3;
   }
+
+  #home-nos-services2-image1 {
+    display: none;
+  }
+
+  #home-nos-services2 {
+    background-image: url("../../public/images/dallc2b7e-2023-04-23-16.00.49-continuation-de-la-foret-e1682280218534.png");
+    background-size: cover;
+    background-position: 70% 50%;
+
+    flex-direction: column;
+    grid-template-columns: none;
+  }
+  #home-nos-services2 > div {
+    background-color: rgba(243, 243, 243, 0.8);
+    width: 80%;
+  }
+
+  #home-nos-services2-content {
+    padding-left: 10%;
+    padding-right: 10%;
+
+    padding-bottom: 10px;
+  }
+
+  #home-nos-services2-ul-contaner {
+    flex-direction: column;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  #home-nos-services2-ul-contaner ul {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+  }
 }
