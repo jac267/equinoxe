@@ -331,10 +331,6 @@ button {
     width: fit-content;
   }
 
-  .section-title {
-    font-size: 30px !important;
-  }
-
   #votre-entrepreneur-generale-content {
     display: flex;
     flex-direction: column;

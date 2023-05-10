@@ -27,7 +27,9 @@ body {
   font-weight: 600;
   line-height: 1.25;
 }
-
+.section-title {
+  font-size: 30px !important;
+}
 .linked-text {
   color: #898989;
 }

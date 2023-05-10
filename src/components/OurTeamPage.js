@@ -11,7 +11,7 @@ function OurTeam() {
 function OurTeamPresentation() {
   return (
     <div id="our-team-presentation">
-      <h2 class="section-title">Notre Équipe</h2>
+      <h2 class="section-title">Notre&#8209;Équipe</h2>
       <p>
         Equinoxe JMP et son équipe spécialisée en travaux de génie civil et de
         voirie relèvent le plus grand des défis, celui de satisfaire pleinement

@@ -53,17 +53,17 @@ function NavBar() {
         <span></span>
 
         <ul id="menu">
-          <a href="#">
-            <li>Home</li>
+          <a href="../public/index.html">
+            <li>ACCEUIL</li>
           </a>
-          <a href="#">
-            <li>About</li>
+          <a href="../public/notre-equipe.html">
+            <li>NOTRE&nbsp;ÉQUIPE</li>
           </a>
-          <a href="#">
-            <li>Info</li>
+          <a href="../public/services.html">
+            <li>SERVICES</li>
           </a>
-          <a href="#">
-            <li>Contact</li>
+          <a href="../public/realisations.html">
+            <li>RÉALISATION</li>
           </a>
         </ul>
       </div>
