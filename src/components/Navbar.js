@@ -1,8 +1,8 @@
 function NavBar() {
   return (
-    <div id="nav-bar">
+    <div id="nav-bar-body">
       <img src="../public/images/galerie3.jpg"></img>
-      <div className="flexRow">
+      <div id="nav-bar" class="flexRow">
         <a id="logo">
           <div></div>
         </a>
@@ -13,7 +13,11 @@ function NavBar() {
 
         <div id="navigation-button">
           <div className="navigation-buttons flexRow">
-            <a id="acceuil" className="text-align-left" href="../public/index.html">
+            <a
+              id="acceuil"
+              className="text-align-left"
+              href="../public/index.html"
+            >
               ACCEUIL
             </a>
             <a
@@ -43,19 +47,26 @@ function NavBar() {
         </div>
       </div>
       <div id="menuToggle">
-        <input type="checkbox"/>
+        <input type="checkbox" />
         <span></span>
         <span></span>
         <span></span>
-      
+
         <ul id="menu">
-          <a href="#"><li>Home</li></a>
-          <a href="#"><li>About</li></a>
-          <a href="#"><li>Info</li></a>
-          <a href="#"><li>Contact</li></a>
+          <a href="#">
+            <li>Home</li>
+          </a>
+          <a href="#">
+            <li>About</li>
+          </a>
+          <a href="#">
+            <li>Info</li>
+          </a>
+          <a href="#">
+            <li>Contact</li>
+          </a>
         </ul>
       </div>
     </div>
   );
 }
-
