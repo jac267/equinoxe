@@ -141,7 +141,7 @@ function HomeNosServices2() {
             d’offrir des solutions personnalisées répondant parfaitement aux
             besoins du client.
           </p>
-          <h3>Choisir Equinoxe JMP, c’est opter pour :</h3>
+          <h3>Choisir Equinoxe JMP, c’est opter pour:</h3>
           <div id="home-nos-services2-ul-contaner" className="flexRow">
             <ul>
               <li>un partenariat d’affaires</li>

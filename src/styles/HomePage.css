@@ -380,10 +380,14 @@ button {
     column-gap: 2.5vw !important;
     row-gap: 25px !important;
   }
-
+  .ButtonExplorer h2 {
+    font-weight: bolder;
+  }
   #home-nos-services1 {
     padding-top: 20px;
     padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   #home-nos-services1 > div {
     flex-direction: column;
@@ -395,7 +399,6 @@ button {
     flex-direction: column;
     height: 100%;
     gap: 1rem;
-    margin: auto;
   }
 
   #home-nos-services1 > div > div > div {
@@ -413,17 +416,20 @@ button {
 
   #home-nos-services1-image2 {
     width: 31vw;
+    display: none;
   }
 
   #home-nos-services1-image3 {
     width: 31vw;
     height: 173px;
+    display: none;
   }
 
   #home-nos-services1 ul {
-    width: 50vw;
+    align-self: center;
+    width: 87.5%;
     max-width: 475px;
-    border: solid black 4px;
+    border: solid black 2px;
     padding-top: 36px;
     padding-bottom: 36px;
     padding-left: 30px;
