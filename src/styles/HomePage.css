@@ -302,7 +302,7 @@ button {
   }
   #filtre-confiez-nous-vos-projets > div {
     position: relative;
-    top: 7.5% !important;
+    top: 10% !important;
     display: flex;
     flex-direction: column;
 
@@ -379,5 +379,55 @@ button {
     padding-top: 0px;
     column-gap: 2.5vw !important;
     row-gap: 25px !important;
+  }
+
+  #home-nos-services1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  #home-nos-services1 > div {
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  #home-nos-services1 > div > div {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 1rem;
+    margin: auto;
+  }
+
+  #home-nos-services1 > div > div > div {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: space-evenly;
+  }
+  #home-nos-services1-image1 {
+    max-width: 550px;
+    width: 70vw;
+    height: 35vw;
+    max-height: 330px;
+  }
+
+  #home-nos-services1-image2 {
+    width: 31vw;
+  }
+
+  #home-nos-services1-image3 {
+    width: 31vw;
+    height: 173px;
+  }
+
+  #home-nos-services1 ul {
+    width: 50vw;
+    max-width: 475px;
+    border: solid black 4px;
+    padding-top: 36px;
+    padding-bottom: 36px;
+    padding-left: 30px;
+    height: 100%;
+    background-color: #f3f3f3;
   }
 }

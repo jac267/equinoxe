@@ -86,7 +86,7 @@ function HomeButtonExplorer(props) {
 function HomeNosServices1() {
   return (
     <div id="home-nos-services1" className="flexColumn">
-      <h1 className="section-title">Nos services</h1>
+      <h1 className="section-title">Nos&nbsp;services</h1>
       <div>
         <div>
           <div
