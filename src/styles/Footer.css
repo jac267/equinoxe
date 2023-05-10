@@ -83,15 +83,23 @@
   min-width: 100px;
 }
 
+#footer-button-and-credit {
+  display: flex;
+  flex-direction: column;
+  height: 20vh;
+  justify-content: space-between;
+}
 #footer-button {
   position: relative;
-  text-align: start;
+  justify-content: end;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
 
   column-gap: 1.5vw;
   left: -1%;
+
+  height: 90%;
 }
 
 #footer-button a {
@@ -122,4 +130,75 @@
 .fa-envelope {
   font-size: 30px;
   padding-bottom: 150%;
+}
+
+#footer-credit {
+  text-align: end;
+  font-size: 10px;
+  height: 10%;
+}
+@media (max-width: 800px) {
+  #footer {
+    flex-direction: column;
+  }
+  #footer strong {
+    font-size: 12px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  #footer p {
+    font-size: 12px;
+    font-family: "Rubik", sans-serif;
+  }
+
+  #footer-info1 {
+    flex-direction: row-reverse;
+    justify-content: space-around;
+  }
+  #footer-addresse {
+    vertical-align: text-top;
+    text-align: end;
+  }
+
+  #footer-telephone-couriel {
+    text-align: start;
+  }
+  #footer-info2 {
+    display: flex;
+    padding-top: 0.67rem;
+
+    padding-bottom: 0.67rem;
+
+    justify-content: space-around;
+  }
+
+  #footer-info2 div {
+    display: flex;
+
+    justify-content: space-around;
+  }
+
+  #footer-zone-de-services {
+    text-align: start;
+  }
+  #footer-heure-ouverture {
+    text-align: end;
+  }
+
+  #footer-button {
+    justify-content: space-around;
+    padding-bottom: 20px;
+  }
+  #footer-credit {
+    text-align: end;
+    font-size: 10px;
+    padding-bottom: 10px;
+  }
+  #footer-button-and-credit {
+    display: flex;
+    flex-direction: column;
+    height: 10vh;
+    justify-content: space-between;
+  }
 }

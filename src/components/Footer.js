@@ -8,7 +8,7 @@ function Footer() {
           </strong>
           1651, rue Routhier
           <br></br>
-          Gatineau,&nbsp;Québec&nbsp;J8R 3Y6
+          Gatineau,&nbsp;Québec<br></br>J8R&nbsp;3Y6
         </p>
         <p id="footer-telephone-couriel">
           <strong>Téléphone :</strong> 819-669-7500<br></br>
@@ -36,17 +36,22 @@ function Footer() {
         </div>
       </div>
 
-      <div id="footer-button" className="flexRow">
-        <a
-          id="facebook-anchor"
-          href="https://www.facebook.com/equinoxejmp"
-          className="social-media-button"
-        >
-          <i className="fa fa-facebook" aria-hidden="true"></i>
-        </a>
-        <a href="mailto:info@equinoxejmp.com" id="email-anchor">
-          <i className="fa fa-envelope" aria-hidden="true"></i>
-        </a>
+      <div id="footer-button-and-credit">
+        <div id="footer-button" className="flexRow">
+          <a
+            id="facebook-anchor"
+            href="https://www.facebook.com/equinoxejmp"
+            className="social-media-button"
+          >
+            <i className="fa fa-facebook" aria-hidden="true"></i>
+          </a>
+          <a href="mailto:info@equinoxejmp.com" id="email-anchor">
+            <i className="fa fa-envelope" aria-hidden="true"></i>
+          </a>
+        </div>
+        <div id="footer-credit">
+          Realisé par: Louis-Philippe Côté et Jacob Chapman
+        </div>
       </div>
     </div>
   );
