@@ -15,14 +15,14 @@ function HomeConfiezNousVosProjets() {
     <div className="section" id="confiez-nous-vos-projets">
       <div id="filtre-confiez-nous-vos-projets">
         <div>
-          <h1>Confiez-nous vos projets</h1>
+          <h1>Confiez&#8209;nous vos&nbsp;projets</h1>
           <p>
             Nos spécialistes en génie civil et travaux de voirie vous proposent
             <br></br>
             des solutions résidentielles commericales et institutionnelles
             adaptées à vos besoins
           </p>
-          <button>Contactez-nous</button>
+          <button>Contactez&#8209;nous</button>
         </div>
       </div>
     </div>
@@ -175,7 +175,10 @@ function HomeNosServices2() {
             économiques et avantageuses lors des défis rencontrés.
           </p>
         </div>
-        <div id="home-nos-services2-image1" className="home-nos-services2-images">
+        <div
+          id="home-nos-services2-image1"
+          className="home-nos-services2-images"
+        >
           {" "}
         </div>
       </div>

@@ -10,7 +10,6 @@
 }
 
 body {
-  
   margin: 0px;
 }
 
@@ -38,4 +37,16 @@ body {
 }
 .text-align-left {
   text-align: left;
+}
+
+@media (max-width: 800px) {
+  body {
+    min-width: 215px;
+  }
+  * {
+    font-family: "Lora", serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 1.65;
+  }
 }
