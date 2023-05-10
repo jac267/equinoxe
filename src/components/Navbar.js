@@ -7,8 +7,12 @@ function NavBar() {
           <div></div>
         </a>
         <div id="contact">
-          <div id="telephone">819-669-7500</div>
-          <div id="email">info@equinoxejmp.com</div>
+          <a id="telephone" href="Tel:819-669-7500">
+            819-669-7500
+          </a>
+          <a id="email" href="mailto:info@equinoxejmp.com">
+            info@equinoxejmp.com
+          </a>
         </div>
 
         <div id="navigation-button">

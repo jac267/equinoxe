@@ -22,7 +22,7 @@ function HomeConfiezNousVosProjets() {
             des solutions résidentielles commerciales et institutionnelles
             adaptées à vos besoins
           </p>
-          <button>Contactez&#8209;nous</button>
+          <a href="mailto:info@equinoxejmp.com">Contactez&#8209;nous</a>
         </div>
       </div>
     </div>
@@ -52,19 +52,19 @@ function HomeVotreEntrepreneurGeneral() {
             title="Projets&nbsp;en&nbsp;tout&nbsp;genre"
             text="Bénéficiez de nos gestionnaires de projets pour tous vos travaux."
             buttonText="Notre&nbsp;expertise"
-            href=""
+            href="../public/services.html"
           />
           <HomeButtonExplorer
             title="Transport&nbsp;et&nbsp;location"
             text="Nous mettons à votre disposition une gamme de machineries&nbsp;lourdes."
             buttonText="Nos&nbsp;solutions"
-            href=""
+            href="../public/services.html"
           />
           <HomeButtonExplorer
             title="Estimation&nbsp;gratuite"
             text="Notre équipe peut vous aider avec tous vos projets."
             buttonText="Contactez&nbsp;nous"
-            href=""
+            href="mailto:info@equinoxejmp.com"
           />
         </div>
       </div>
@@ -78,7 +78,7 @@ function HomeButtonExplorer(props) {
       <h2>{props.title}</h2>
       <p>{props.text}</p>
 
-      <button href={props.href}>{props.buttonText}</button>
+      <a href={props.href}>{props.buttonText}</a>
     </div>
   );
 }

@@ -42,7 +42,7 @@ p {
   margin-block: 0em;
   margin-inline: 0px;
 }
-button {
+#filtre-confiez-nous-vos-projets a {
   background-color: #898989;
   border: none;
   box-shadow: none;
@@ -54,6 +54,8 @@ button {
   padding-left: 26px;
 
   width: fit-content;
+  text-decoration: none;
+  color: white;
 }
 
 #filtre-confiez-nous-vos-projets button {
@@ -129,11 +131,20 @@ button {
   min-height: 105px;
 }
 
-.ButtonExplorer button {
+.ButtonExplorer a {
   color: white;
   font-family: "Lora", serif;
   font-size: 17px;
   font-weight: 500;
+
+  background-color: #898989;
+  text-decoration: none;
+  color: white;
+
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-right: 26px;
+  padding-left: 26px;
 }
 
 #home-nos-services1 {
@@ -322,7 +333,7 @@ button {
     letter-spacing: 0px;
   }
 
-  #filtre-confiez-nous-vos-projets > div > button {
+  #filtre-confiez-nous-vos-projets > div > a {
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 17px;
@@ -378,6 +389,13 @@ button {
   }
   .ButtonExplorer h2 {
     font-weight: bolder;
+  }
+
+  .ButtonExplorer a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 17px;
+    padding-left: 17px;
   }
   #home-nos-services1 {
     padding-top: 20px;
