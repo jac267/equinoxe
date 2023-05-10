@@ -467,7 +467,7 @@ button {
 
   #associations-professionnelles {
     margin-top: 50px;
-
+    text-align: center;
     height: 150px;
     width: 100%;
   }
@@ -478,5 +478,9 @@ button {
 
   #associations-professionnelles p {
     font-size: 12px;
+  }
+
+  #map {
+    margin-top: 0px;
   }
 }
