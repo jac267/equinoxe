@@ -12,7 +12,7 @@ function Home() {
 
 function HomeConfiezNousVosProjets() {
   return (
-    <div class="section" id="confiez-nous-vos-projets">
+    <div className="section" id="confiez-nous-vos-projets">
       <div id="filtre-confiez-nous-vos-projets">
         <div>
           <h1>Confiez-nous vos projets</h1>
@@ -31,10 +31,10 @@ function HomeConfiezNousVosProjets() {
 
 function HomeVotreEntrepreneurGeneral() {
   return (
-    <div class="section" id="votre-entrepreneur-general">
+    <div className="section" id="votre-entrepreneur-general">
       <div id="votre-entrepreneur-generale-content">
-        <div class="flexColumn">
-          <h1 class="section-title">
+        <div className="flexColumn">
+          <h1 className="section-title">
             Equinoxe JMP, votre entrepreneur général en Outaouais
           </h1>
           <p>
@@ -47,7 +47,7 @@ function HomeVotreEntrepreneurGeneral() {
           </p>
         </div>
 
-        <div class="flexRow ButtonExplorerDiv">
+        <div className="flexRow ButtonExplorerDiv">
           <HomeButtonExplorer
             title="Projets&nbsp;en&nbsp;tout&nbsp;genre"
             text="Bénéficiez de nos gestionnaires de projets pour tous vos travaux."
@@ -74,7 +74,7 @@ function HomeVotreEntrepreneurGeneral() {
 
 function HomeButtonExplorer(props) {
   return (
-    <div class="ButtonExplorer">
+    <div className="ButtonExplorer">
       <h2>{props.title}</h2>
       <p>{props.text}</p>
 
@@ -85,22 +85,22 @@ function HomeButtonExplorer(props) {
 
 function HomeNosServices1() {
   return (
-    <div id="home-nos-services1" class="flexColumn">
-      <h1 class="section-title">Nos services</h1>
+    <div id="home-nos-services1" className="flexColumn">
+      <h1 className="section-title">Nos services</h1>
       <div>
         <div>
           <div
             id="home-nos-services1-image1"
-            class="home-nos-services1-images"
+            className="home-nos-services1-images"
           ></div>
           <div>
             <div
               id="home-nos-services1-image2"
-              class="home-nos-services1-images"
+              className="home-nos-services1-images"
             ></div>
             <div
               id="home-nos-services1-image3"
-              class="home-nos-services1-images"
+              className="home-nos-services1-images"
             ></div>
           </div>
         </div>
@@ -131,8 +131,8 @@ function HomeNosServices1() {
 function HomeNosServices2() {
   return (
     <div id="home-big-nos-services2">
-      <div id="home-nos-services2" class="flexRow">
-        <div class="flexColumn" id="home-nos-services2-content">
+      <div id="home-nos-services2" className="flexRow">
+        <div className="flexColumn" id="home-nos-services2-content">
           <h2>Votre partenaire de choix</h2>
           <p>
             Chez Equinoxe JMP, nous sommes d’avis qu’un entrepreneur général
@@ -142,7 +142,7 @@ function HomeNosServices2() {
             besoins du client.
           </p>
           <h3>Choisir Equinoxe JMP, c’est opter pour :</h3>
-          <div class="flexRow">
+          <div className="flexRow">
             <ul>
               <li>un partenariat d’affaires</li>
 
@@ -168,14 +168,14 @@ function HomeNosServices2() {
               </li>
             </ul>
           </div>
-          <p class="Smallerpxfont">
+          <p className="Smallerpxfont">
             Contactez-nous sans attendre pour avoir plus d’information sur nos
             services. De plus, notre expertise et notre vaste réseau de contacts
             nous permettent de réagir rapidement afin de trouver des solutions
             économiques et avantageuses lors des défis rencontrés.
           </p>
         </div>
-        <div id="home-nos-services2-image1" class="home-nos-services2-images">
+        <div id="home-nos-services2-image1" className="home-nos-services2-images">
           {" "}
         </div>
       </div>
@@ -185,25 +185,25 @@ function HomeNosServices2() {
 
 function AssociationsProfessionnelles() {
   return (
-    <div id="associations-professionnelles" class="flexColumn">
+    <div id="associations-professionnelles" className="flexColumn">
       <h2>Associations professionnelles</h2>
       <p>
         Licence de la Régie du bâtiment du Québec (
-        <a class="linked-text" href="https://www.rbq.gouv.qc.ca/accueil/">
+        <a className="linked-text" href="https://www.rbq.gouv.qc.ca/accueil/">
           RBQ
         </a>
         )
       </p>
       <p>
         Association de la construction du Québec (
-        <a class="linked-text" href="https://www.acq.org/">
+        <a className="linked-text" href="https://www.acq.org/">
           ACQ
         </a>
         )
       </p>
       <p>
         Commission de la construction du Québec (
-        <a class="linked-text" href="https://www.ccq.org/fr-CA">
+        <a className="linked-text" href="https://www.ccq.org/fr-CA">
           CCQ
         </a>
         )
