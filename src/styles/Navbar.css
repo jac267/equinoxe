@@ -9,6 +9,7 @@
   height: 96px;
 
   z-index: 100;
+  border-bottom: #000 solid 2px;
 }
 
 #nav-bar-body img {
