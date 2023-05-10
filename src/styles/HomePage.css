@@ -300,7 +300,6 @@ button {
   #confiez-nous-vos-projets {
     height: 75vh;
   }
-
   #filtre-confiez-nous-vos-projets > div {
     position: relative;
     top: 5% !important;
@@ -364,12 +363,21 @@ button {
 
   #votre-entrepreneur-generale-content div {
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
     justify-content: center;
     column-gap: 2.5rem;
     row-gap: 10px;
   }
+  .ButtonExplorer {
+    width: 30%;
+    min-width: 238px;
+  }
   .ButtonExplorerDiv {
-    padding-top: 90px;
+    align-items: center;
+    padding-top: 0px;
     column-gap: 2.5vw !important;
+    row-gap: 25px !important;
   }
 }
