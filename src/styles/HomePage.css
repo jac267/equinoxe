@@ -20,7 +20,7 @@
 
 #filtre-confiez-nous-vos-projets > div {
   position: relative;
-  top: 40%;
+  top: 50%;
 
   display: flex;
   flex-direction: column;
@@ -287,12 +287,13 @@ p {
   background-color: #232b2b;
   color: white;
   margin-top: 100px;
+  padding: 20px 0;
   display: flex;
   align-items: center;
 
-  height: 318px;
   width: 100%;
   justify-content: center;
+  height: fit-content;
 }
 
 #associations-professionnelles h2 {
@@ -305,6 +306,23 @@ p {
   height: 440px; /* The height is 400 pixels */
   width: 100%; /* The width is the width of the web page */
   margin-top: 40px;
+}
+
+.logos-associations{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px;
+}
+.logos-associations > a{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100px;
+  color: inherit;
+  justify-content: center;
+  margin: 0px 20px;
 }
 
 @media (max-width: 800px) {
@@ -469,10 +487,9 @@ p {
   }
 
   #home-nos-services2-content {
-    padding-left: 10%;
-    padding-right: 10%;
+    padding: 0 10%;
 
-    padding-bottom: 0px;
+    margin-bottom: 20px;
   }
 
   #home-nos-services2-ul-contaner {
@@ -486,10 +503,18 @@ p {
   }
 
   #associations-professionnelles {
-    margin-top: 50px;
+    margin-top: 0px;
+    padding-top: 20px;
     text-align: center;
-    height: 150px;
+    height: fit-content;
     width: 100%;
+  }
+
+  .logos-associations{
+    flex-direction: column;
+  }
+  .logos-associations > a{
+    margin: 10px 0px;
   }
 
   #associations-professionnelles h2 {

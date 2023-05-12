@@ -43,7 +43,20 @@ function HomeVotreEntrepreneurGeneral() {
             Faites-nous part de vos besoins et de vos projets en nous contactant par téléphone ou par courriel afin de profiter d’une estimation gratuite !
           </p>
         </div>
-
+        <br></br>
+        <div className="flexColumn">
+          <h1 className="section-title">
+            Equinoxe JMP, votre entrepreneur général en Outaouais
+          </h1>
+          <p>
+            Equinoxe JMP vous offre ses services pour vos travaux de génie civil
+            et d’excavation à Gatineau. Notre équipe d’expérience peut répondre
+            à tous vos besoins résidentiels, commerciaux et institutionnels et
+            met tout en œuvre pour effectuer vos travaux efficacement et
+            rapidement. Notre souci du détail et notre expertise nous permettent
+            de vous garantir un résultat impeccable.
+          </p>
+        </div>
         <div className="flexRow ButtonExplorerDiv">
           <HomeButtonExplorer
             title="Projets&nbsp;en&nbsp;tout&nbsp;genre"
@@ -63,19 +76,6 @@ function HomeVotreEntrepreneurGeneral() {
             buttonText="Contactez&nbsp;nous"
             href="mailto:info@equinoxejmp.com"
           />
-        </div>
-        <div className="flexColumn">
-          <h1 className="section-title">
-            Equinoxe JMP, votre entrepreneur général en Outaouais
-          </h1>
-          <p>
-            Equinoxe JMP vous offre ses services pour vos travaux de génie civil
-            et d’excavation à Gatineau. Notre équipe d’expérience peut répondre
-            à tous vos besoins résidentiels, commerciaux et institutionnels et
-            met tout en œuvre pour effectuer vos travaux efficacement et
-            rapidement. Notre souci du détail et notre expertise nous permettent
-            de vous garantir un résultat impeccable.
-          </p>
         </div>
       </div>
     </div>
@@ -198,32 +198,21 @@ function AssociationsProfessionnelles() {
   return (
     <div id="associations-professionnelles" className="flexColumn">
       <h2>Associations professionnelles</h2>
-      <div className="flexRow">
-        <a href="https://www.w3schools.com">
-        <img border="0" alt="CCQ" src="../public/images/CCQ-Hor-RGB.PNG" width="200px"></img>
+      <div className="logos-associations">
+        <a href="https://www.ccq.org/" target="_blank">
+        <img border="0" alt="CCQ" src="../public/images/logo_CCQ.png" height="80px"></img>
         </a>
-        
-        <p>
-          Licence de la Régie du bâtiment du Québec (
-          <a className="linked-text" href="https://www.rbq.gouv.qc.ca/accueil/">
-            RBQ
-          </a>
-          )
-        </p>
-        <p>
-          Association de la construction du Québec (
-          <a className="linked-text" href="https://www.acq.org/">
-            ACQ
-          </a>
-          )
-        </p>
-        <p>
-          Commission de la construction du Québec (
-          <a className="linked-text" href="https://www.ccq.org/fr-CA">
-            CCQ
-          </a>
-          )
-        </p>
+        <a href="https://www.acq.org/" target="_blank">
+        <img border="0" alt="ACQ" src="../public/images/logo_ACQ.png" height="90px"></img>
+        </a>
+        <a href="https://amp.quebec/accueil/" target="_blank">
+        <img border="0" alt="AMP" src="../public/images/logo_AMP.png" height="60px"></img>
+        </a> 
+        <a href="https://www.pes.rbq.gouv.qc.ca/RegistreLicences/Recherche/Resultats/FicheDetenteur?mode=Entreprise&crit=r1TSc6INGEWKtcUK6jcX9%2FEByYB22EJQyiTukjrpiNiBdLFBdmxsUQD5hDhRnpniSWRgQPOq4Oq7AYd4UqvduXNoxS7GrtZarAE5%2FQv2Tj9k9EtXsKZODcycaRS2vCDNPQ6XfEMFITtraZrvf%2BgSWW7nmJkxFUO61%2BJpjNieowQzU4H6R2eXippcr2lPy5R1B4K2sdXI%2FpUAlPwqMYYQdpz3BOccyiJsKBVvKyrAqDrM7jiv3x%2BguYjgtaophGWXvjgFguv9VR1DUaL7rNDDMB0yjZaXigmSnxFtCNE7NOyEqwrlX0R9qXButtIQJOIqPihCvlJkhJ%2FJ%2BGTpgJLmK5BAxMmMniIOk%2BwSCbjfHkWg0hZU9DNT2W0XoKFPdEEO%2Fes3%2BmGBNG3fX7DBvuMkd%2FGLRJoYDIL%2FPdTuD48scB32LYWT9tzpXxAxp76AHpmeVwmSkcH7fwxyrjaYpDL4xXWo5rKm8X0shs85fxIlgsaloSrdYlcSTDiQBkdCloa%2Bu7NXdWEkodjgeSUFPwOxTO7lTeLIy%2FlXcWc7CfMU%2FM9LezKDo0bTMoHv505lRGcJoVnS4FGW8duNSh3wKeVZNB%2FdmL512KweHA%2BhfD44PyASQYI025n9MPgFMkmtzpepKWHrNUAZPb9vrbgTpXspAHKvqIrL7zRAuHK6UqnJfwFgK2S1nxYhmyv6n6PuzkVh&ent=hNTbIF1suhF5H3ci0z3P3w%3D%3D" target="_blank">
+        <br></br>
+        <img border="0" alt="RBQ" src="../public/images/logo_RBQ.png" height="50px"></img>
+        <p>Licence RBQ: #83193425‑10</p>
+        </a>
       </div>
     </div>
   );
