@@ -6,16 +6,23 @@
   background-size: cover;
 }
 
-#our-team-presentation {
-  padding: 20px;
-  padding-top: 100px;
+#our-team-presentation-box{
   background-color: #f3f3f3;
+}
+
+#our-team-presentation {
+  max-width: 1290px;
+  padding: 20px;
+  padding-top: 50px;
+  margin: 0 auto;
 
   text-align: center;
   font-weight: 500;
 }
 
 #organisationaffilier {
+  max-width: 1290px;
+  margin: 0 auto;
   width: 100%;
   display: flex;
   align-items: center;
@@ -32,20 +39,24 @@
 
 #organisationaffilier img {
   max-width: 90%;
-  height: 8vw;
+  height: 5vw;
   min-height: 58px;
   object-fit: fill;
 }
 
+#organisationaffilier a{
+  color: inherit;
+}
+
 #organisation-regie_du_batiment-div {
   display: flex;
-  height: 150px;
-  justify-content: end;
+  height: 10vw;
+  justify-content: center;
   vertical-align: middle;
 }
 
 #organisation-regie_du_batiment-div img {
-  min-height: 60%;
+  height: 5vw;
 }
 
 @media (max-width: 800px) {

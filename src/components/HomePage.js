@@ -192,11 +192,11 @@ function AssociationsProfessionnelles() {
         <img border="0" alt="ACQ" src="../public/images/logo_ACQ.png" height="90px"></img>
         </a>
         <a href="https://amp.quebec/accueil/" target="_blank">
-        <img border="0" alt="AMP" src="../public/images/logo_AMP.png" height="60px"></img>
+        <img border="0" alt="AMP" src="../public/images/logo_AMP_gris.png" height="60px"></img>
         </a> 
         <a href="https://www.pes.rbq.gouv.qc.ca/RegistreLicences/Recherche/Resultats/FicheDetenteur?mode=Entreprise&crit=r1TSc6INGEWKtcUK6jcX9%2FEByYB22EJQyiTukjrpiNiBdLFBdmxsUQD5hDhRnpniSWRgQPOq4Oq7AYd4UqvduXNoxS7GrtZarAE5%2FQv2Tj9k9EtXsKZODcycaRS2vCDNPQ6XfEMFITtraZrvf%2BgSWW7nmJkxFUO61%2BJpjNieowQzU4H6R2eXippcr2lPy5R1B4K2sdXI%2FpUAlPwqMYYQdpz3BOccyiJsKBVvKyrAqDrM7jiv3x%2BguYjgtaophGWXvjgFguv9VR1DUaL7rNDDMB0yjZaXigmSnxFtCNE7NOyEqwrlX0R9qXButtIQJOIqPihCvlJkhJ%2FJ%2BGTpgJLmK5BAxMmMniIOk%2BwSCbjfHkWg0hZU9DNT2W0XoKFPdEEO%2Fes3%2BmGBNG3fX7DBvuMkd%2FGLRJoYDIL%2FPdTuD48scB32LYWT9tzpXxAxp76AHpmeVwmSkcH7fwxyrjaYpDL4xXWo5rKm8X0shs85fxIlgsaloSrdYlcSTDiQBkdCloa%2Bu7NXdWEkodjgeSUFPwOxTO7lTeLIy%2FlXcWc7CfMU%2FM9LezKDo0bTMoHv505lRGcJoVnS4FGW8duNSh3wKeVZNB%2FdmL512KweHA%2BhfD44PyASQYI025n9MPgFMkmtzpepKWHrNUAZPb9vrbgTpXspAHKvqIrL7zRAuHK6UqnJfwFgK2S1nxYhmyv6n6PuzkVh&ent=hNTbIF1suhF5H3ci0z3P3w%3D%3D" target="_blank">
         <br></br>
-        <img border="0" alt="RBQ" src="../public/images/logo_RBQ.png" height="50px"></img>
+        <img border="0" alt="RBQ" src="../public/images/logo_RBQ_blanc.png" height="50px"></img>
         <p>Licence RBQ: #83193425‑10</p>
         </a>
       </div>
