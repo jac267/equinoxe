@@ -68,7 +68,7 @@ function OrganisationAffilier() {
       <a href="https://www.cnesst.gouv.qc.ca/" target="_blank">
       <img
         id="organisation-CNESST-img"
-        src="../public/images/logo_CNESST1.png"
+        src="../public/images/logo_CNESST.png"
       ></img>
       </a>
       <a href="https://amp.quebec/accueil/" target="_blank">
