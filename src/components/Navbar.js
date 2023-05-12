@@ -22,7 +22,7 @@ function NavBar() {
               className="text-align-left"
               href="../public/index.html"
             >
-              ACCEUIL
+              ACCUEIL
             </a>
             <a
               id="notre-equipe"
@@ -45,7 +45,7 @@ function NavBar() {
               className="text-align-right"
               href="../public/realisations.html"
             >
-              RÉALISATION
+              RÉALISATIONS
             </a>
           </div>
         </div>
@@ -58,7 +58,7 @@ function NavBar() {
 
         <ul id="menu">
           <a href="../public/index.html">
-            <li>ACCEUIL</li>
+            <li>ACCUEIL</li>
           </a>
           <a href="../public/notre-equipe.html">
             <li>NOTRE&nbsp;ÉQUIPE</li>
