@@ -42,6 +42,7 @@ function Footer() {
             id="facebook-anchor"
             href="https://www.facebook.com/equinoxejmp"
             className="social-media-button"
+            target="_blank"
           >
             <i className="fa fa-facebook" aria-hidden="true"></i>
           </a>

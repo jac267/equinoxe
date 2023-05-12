@@ -13,7 +13,7 @@ function OurTeamBanniere() {
   return (
     <div id="OurTeam-banniere">
       <div id="filtre">
-        <div id="info" class="flexColumn">
+        <div id="info" className="flexColumn">
           <h2>Services</h2>
           <p>
             Notre équipe expérimentée pourra vous venir en aide <br></br>pour
@@ -27,21 +27,27 @@ function OurTeamBanniere() {
 function ServicesOfferts() {
   return (
     <div id="ServicesOfferts">
-      <div id="ServicesOfferts-info" class="flexColumn">
-        <div id="excavation-genie" class="flexRow">
+      <div id="ServicesOfferts-info" className="flexColumn">
+        <div id="excavation-genie" className="flexRow">
           <div>
-            <h3>Excavation et transport de contaminé</h3>
+            <h3>Excavation</h3>
             <p>
               Nos services d'excavation incluent l'excavation de tranchées, le
-              drainage, les bassins de rétention, le remblayage et l'excavation
+              drainage, les bassins de rétention, le remblayage, le roc et l'excavation
               de bâtiments résidentiels et commerciaux.
+            </p>
+          </div>
+          <div>
+            <h3>Transport de contaminé</h3>
+            <p>
+              Nous offrons la gestion et la disposition de contaminé selon les normes du MELCCFP et Traces Québec.
             </p>
           </div>
           <div>
             <h3>Génie civil et voirie</h3>
             <p>
               Notre équipement performant et nos années d’expérience dans le
-              domaine nous permettent de réaliser des travaux en tous genres :
+              domaine nous permettent de réaliser des travaux de tous genres :
             </p>
             <ul>
               <li>Égouts</li>
@@ -53,7 +59,7 @@ function ServicesOfferts() {
           </div>
         </div>
 
-        <div class="flexRow" id="location-projet">
+        <div className="flexRow" id="location-projet">
           <div>
             <h3>Location de machines lourdes</h3>
             <p>
@@ -72,7 +78,10 @@ function ServicesOfferts() {
               et les budgets préparés et soumis. Nos responsabilités incluent
               également la négociation des contrats auprès des professionnels du
               domaine (fournisseurs, sous-traitants, architectes, ingénieurs,
-              etc.) Finalement, nous assurons un contrôle de la qualité,
+              etc.)
+            </p>
+            <p>
+              Finalement, nous assurons un contrôle de la qualité,
               rédigeons différents rapports, achetons les matériaux nécessaires,
               embauchons le personnel et supervisons le travail des
               sous-traitants.
@@ -87,9 +96,9 @@ function ServicesOfferts() {
 function EquipementOfferts() {
   return (
     <div id="equipement-offerts-section">
-      <div id="equipement-offerts" class="flexRow">
+      <div id="equipement-offerts" className="flexRow">
         <div id="equipement-offerts-list">
-          <h2>Notre&nbsp;équipement</h2>
+          <h2>Nos&nbsp;équipements</h2>
           <ul>
             <li>Pelles mécaniques de 14 à 50 tonnes</li>
             <li>Mini-pelle</li>
@@ -100,11 +109,12 @@ function EquipementOfferts() {
             <li>Camions 12 roues</li>
             <li>Semi&#8209;remorques</li>
             <li>Hors-route</li>
+            <li>Camions à eau</li>
           </ul>
         </div>
 
-        <div id="equipement-offerts-visuel" class="flexColumn">
-          <div class="flexRow">
+        <div id="equipement-offerts-visuel" className="flexColumn">
+          <div className="flexRow">
             <img src="../public/images/pelle kubota Gilbert - Copie.jpg"></img>
             <img src="../public/images/69194333177__63F6DDDB-121B-4344-A745-C87ECE95A2A2.jpg"></img>
             <img
@@ -112,7 +122,7 @@ function EquipementOfferts() {
               src="../public/images/70005550394__64e8a8c9-731a-4388-9413-52804b770531-1-edited-2.jpg"
             ></img>
           </div>
-          <div class="flexRow">
+          <div className="flexRow">
             <img src="../public/images/D5820489-0FA7-4960-A257-C6DED964E30F.jpg"></img>
             <img src="../public/images/Pelle Hitachi ZX350.jpg"></img>
             <img src="../public/images/Pelle Caterpillar 349F.jpg"></img>
@@ -126,9 +136,9 @@ function EquipementOfferts() {
 function AffaireAvecNous() {
   return (
     <div id="affaire-avec-nous-box">
-      <div id="affaire-avec-nous-content" class="flexColumn">
-        <div class="flexColumn">
-          <h2>Faites-affaire avec nous dès maintenant</h2>
+      <div id="affaire-avec-nous-content" className="flexColumn">
+        <div className="flexColumn">
+          <h2>Faites affaire avec nous dès maintenant</h2>
           <a href="mailto:info@equinoxejmp.com">Contactez-nous</a>
         </div>
       </div>

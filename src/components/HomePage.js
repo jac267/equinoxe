@@ -28,33 +28,19 @@ function HomeVotreEntrepreneurGeneral() {
       <div id="votre-entrepreneur-generale-content">
         <div className="flexColumn">
           <h1 className="section-title">
-            Notre histoire, une histoire de famille
+            Equinoxe JMP, votre entrepreneur général en Outaouais
           </h1>
           <p>
-            Au tout début, Construction Bouladier fondé par M. Michel Bouladier, concentrait ses activités dans la location de machinerie lourde spécialisé en génie civil.  C’est en 2005 que Julie et Pascal, fille et fils de Michel, se joignent à Michel et fondent EQUINOXE JMP.  L’entreprise devient alors Entrepreneur général spécialisé en égouts et aqueducs.  Equinoxe JMP compte maintenant près de 20 années d’expérience en exécution et gestion de travaux de génie civil et excavation.  Avec les années plusieurs ressources clés se sont joint à l’équipe et c’est maintenant plus de 35 employés qui partagent leurs connaissances au service de sa clientèle.
+            Au tout début, Construction Bouladier fondé par M. Michel Bouladier, concentrait ses activités dans la location de machinerie lourde spécialisée en génie civil.  C’est en 2005 que Julie et Pascal, fille et fils de Michel, se joignent à Michel et fondent EQUINOXE JMP.  L’entreprise devient alors Entrepreneur général spécialisé en égouts et aqueducs.  Equinoxe JMP compte maintenant près de 20 années d’expérience en exécution et gestion de travaux de génie civil et excavation.  Avec les années plusieurs ressources clés se sont joint à l’équipe et c’est maintenant plus de 35 employés qui partagent leurs connaissances au service de sa clientèle.
           </p>
           <br></br>
           <p>
-            Localisée à Gatineau, nos équipes se déplacent dans les régions d’Ottawa et de l’Outaouais afin de répondre aux besoins de notre clientèle résidentielle, commerciale, institutionnelle et municipale. Vous avez des projets d’excavation, d’installation d’égouts ou d’aqueducs? Nous vous offrons notre expertise, notre savoir-faire, nos équipements de pointe et notre passion pour le métier.
+            Localisées à Gatineau, nos équipes se déplacent dans les régions d’Ottawa et de l’Outaouais afin de répondre aux besoins de notre clientèle résidentielle, commerciale, institutionnelle et municipale. Vous avez des projets d’excavation, d’installation d’égouts ou d’aqueducs? Nous vous offrons notre expertise, notre savoir-faire, nos équipements de pointe et notre passion pour le métier.
           </p>
           <br></br>
 
           <p>
-            Faites-nous part de vos besoins et de vos projets en nous contactant par téléphone ou par courriel afin de profiter d’une estimation gratuite !
-          </p>
-        </div>
-        <br></br>
-        <div className="flexColumn">
-          <h1 className="section-title">
-            Equinoxe JMP, votre entrepreneur général en Outaouais
-          </h1>
-          <p>
-            Equinoxe JMP vous offre ses services pour vos travaux de génie civil
-            et d’excavation à Gatineau. Notre équipe d’expérience peut répondre
-            à tous vos besoins résidentiels, commerciaux et institutionnels et
-            met tout en œuvre pour effectuer vos travaux efficacement et
-            rapidement. Notre souci du détail et notre expertise nous permettent
-            de vous garantir un résultat impeccable.
+            Faites nous part de vos besoins et de vos projets en nous contactant par téléphone ou par courriel afin de profiter d’une estimation gratuite !
           </p>
         </div>
         <div className="flexRow ButtonExplorerDiv">
