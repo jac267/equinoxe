@@ -106,14 +106,14 @@ var _data = {
           besoins du client.`,
           ],
           "sous-titre1": ["Choisir Equinoxe JMP, c’est opter pour:"],
-          liste1: [
+          list1: [
             ["un partenariat d’affaires"],
             ["une équipe dynamique et multidisciplinaire"],
             ["un contremaître expérimenté sur chaque chantier"],
             ["une main-d’œuvre compétente"],
             ["une relation solide et chaleureuse"],
           ],
-          liste2: [
+          list2: [
             ["un suivi serré des budgets et des échéanciers"],
             ["une planification efficace et rigoureuse"],
             ["une expertise reconnue"],
@@ -179,8 +179,84 @@ var _data = {
         },
       },
     },
+    services: {
+      title: ["Services"],
+      text1: [
+        `Notre équipe expérimentée pourra vous venir en aide`,
+        `pour tous vos projets de petite ou grande envergure`,
+      ],
+      section1: {
+        contenue: {
+          "sous-titre1": ["Excavation"],
+          text1: [
+            `Nos services d'excavation incluent l'excavation de tranchées, le
+          drainage, les bassins de rétention, le remblayage, le bris de roc et l'excavation
+          de bâtiments résidentiels et commerciaux.`,
+          ],
+          "sous-titre2": ["Transport de contaminé"],
+          text2: [
+            "Nous offrons la gestion et la disposition de contaminé selon les normes du MELCCFP et Traces Québec.",
+          ],
+          "sous-titre3": ["Génie civil et voirie"],
+          text3: [
+            `Notre équipement performant et nos années d’expérience dans le
+          domaine nous permettent de réaliser des travaux de tous genres :`,
+          ],
+          list1: [
+            ["Égouts"],
+            ["Aqueducs"],
+            ["Aménagement et réfection de stationnements"],
+            ["Aménagement et réfection de ponceaux"],
+            ["Aménagement et réfection de routes et chemins publics"],
+          ],
+          "sous-titre4": ["Location de machines lourdes"],
+          text4: [
+            `Equinoxe JMP dispose d’une vaste flotte de camions, machineries
+          lourdes et outils spécialisés. Que ce soit pour profiter de nos
+          équipements de pointe avec notre service de location à l’heure ou
+          pour demander l’expertise d’un de nos opérateurs qualifiés, vous
+          pouvez compter sur nous.`,
+          ],
+          "sous-titre5": ["Gestion de projet"],
+          text5: [
+            `En tant que gestionnaire de projet, notre rôle principal est de
+          suivre l’évolution de votre projet en respectant les calendriers
+          et les budgets préparés et soumis. Nos responsabilités incluent
+          également la négociation des contrats auprès des professionnels du
+          domaine (fournisseurs, sous-traitants, architectes, ingénieurs,
+          etc.)`,
+          ],
+          text6: [
+            `Finalement, nous assurons un contrôle de la qualité,
+          rédigeons différents rapports, achetons les matériaux nécessaires,
+          embauchons le personnel et supervisons le travail des
+          sous-traitants.`,
+          ],
+        },
+      },
+      section2: {
+        title: ["Nos\xa0équipements"],
+        contenue: {
+          list1: [
+            ["Pelles mécaniques de 14 à 50 tonnes"],
+            ["Mini-pelle"],
+            ["Marteaux"],
+            ["Chargeurs sur roues"],
+            ["Béliers"],
+            ["Rouleaux"],
+            ["Camions 12 roues"],
+            ["Semi\u2011remorques"],
+            ["Hors-route"],
+            ["Camions à eau"],
+          ],
+        },
+      },
+      section3: {
+        title: ["Faites affaire avec nous dès maintenant"],
+        contenue: { boutton1: ["Contactez-nous"] },
+      },
+    },
     realisations: {},
-    services: {},
   },
   En: {
     Navbar: {},

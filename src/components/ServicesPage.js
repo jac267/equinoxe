@@ -14,11 +14,8 @@ function OurTeamBanniere() {
     <div id="OurTeam-banniere">
       <div id="filtre">
         <div id="info" className="flexColumn">
-          <h2>Services</h2>
-          <p>
-            Notre équipe expérimentée pourra vous venir en aide <br></br>pour
-            tous vos projets de petite ou grande envergure
-          </p>
+          <h2>{loadText(data["services"]["title"])}</h2>
+          <p>{loadText(data["services"]["text1"])}</p>
         </div>
       </div>
     </div>
@@ -30,62 +27,65 @@ function ServicesOfferts() {
       <div id="ServicesOfferts-info" className="flexColumn">
         <div id="excavation-genie" className="flexRow">
           <div>
-            <h3>Excavation</h3>
-            <p>
-              Nos services d'excavation incluent l'excavation de tranchées, le
-              drainage, les bassins de rétention, le remblayage, le bris de roc et l'excavation
-              de bâtiments résidentiels et commerciaux.
-            </p>
+            <h3>
+              {loadText(
+                data["services"]["section1"]["contenue"]["sous-titre1"]
+              )}
+            </h3>
+            <p>{loadText(data["services"]["section1"]["contenue"]["text1"])}</p>
           </div>
           <div>
-            <h3>Transport de contaminé</h3>
-            <p>
-              Nous offrons la gestion et la disposition de contaminé selon les normes du MELCCFP et Traces Québec.
-            </p>
+            <h3>
+              {loadText(
+                data["services"]["section1"]["contenue"]["sous-titre2"]
+              )}
+            </h3>
+            <p>{loadText(data["services"]["section1"]["contenue"]["text2"])}</p>
           </div>
           <div>
-            <h3>Génie civil et voirie</h3>
-            <p>
-              Notre équipement performant et nos années d’expérience dans le
-              domaine nous permettent de réaliser des travaux de tous genres :
-            </p>
+            <h3>
+              {loadText(
+                data["services"]["section1"]["contenue"]["sous-titre3"]
+              )}
+            </h3>
+            <p>{loadText(data["services"]["section1"]["contenue"]["text3"])}</p>
             <ul>
-              <li>Égouts</li>
-              <li>Aqueducs</li>
-              <li>Aménagement et réfection de stationnements</li>
-              <li>Aménagement et réfection de ponceaux</li>
-              <li>Aménagement et réfection de routes et chemins publics</li>
+              <li>
+                {loadText(data["services"]["section1"]["contenue"]["list1"][0])}
+              </li>
+              <li>
+                {loadText(data["services"]["section1"]["contenue"]["list1"][1])}
+              </li>
+              <li>
+                {loadText(data["services"]["section1"]["contenue"]["list1"][2])}
+              </li>
+              <li>
+                {loadText(data["services"]["section1"]["contenue"]["list1"][3])}
+              </li>
+              <li>
+                {loadText(data["services"]["section1"]["contenue"]["list1"][4])}
+              </li>
             </ul>
           </div>
         </div>
 
         <div className="flexRow" id="location-projet">
           <div>
-            <h3>Location de machines lourdes</h3>
-            <p>
-              Equinoxe JMP dispose d’une vaste flotte de camions, machineries
-              lourdes et outils spécialisés. Que ce soit pour profiter de nos
-              équipements de pointe avec notre service de location à l’heure ou
-              pour demander l’expertise d’un de nos opérateurs qualifiés, vous
-              pouvez compter sur nous.
-            </p>
+            <h3>
+              {loadText(
+                data["services"]["section1"]["contenue"]["sous-titre4"]
+              )}
+            </h3>
+            <p>{loadText(data["services"]["section1"]["contenue"]["text4"])}</p>
           </div>
           <div>
-            <h3>Gestion de projet</h3>
-            <p>
-              En tant que gestionnaire de projet, notre rôle principal est de
-              suivre l’évolution de votre projet en respectant les calendriers
-              et les budgets préparés et soumis. Nos responsabilités incluent
-              également la négociation des contrats auprès des professionnels du
-              domaine (fournisseurs, sous-traitants, architectes, ingénieurs,
-              etc.)
-            </p>
-            <p>
-              Finalement, nous assurons un contrôle de la qualité,
-              rédigeons différents rapports, achetons les matériaux nécessaires,
-              embauchons le personnel et supervisons le travail des
-              sous-traitants.
-            </p>
+            <h3>
+              {loadText(
+                data["services"]["section1"]["contenue"]["sous-titre5"]
+              )}
+            </h3>
+            <p>{loadText(data["services"]["section1"]["contenue"]["text5"])}</p>
+            <p>{loadText(data["services"]["section1"]["contenue"]["text6"])}</p>
           </div>
         </div>
       </div>
@@ -98,18 +98,38 @@ function EquipementOfferts() {
     <div id="equipement-offerts-section">
       <div id="equipement-offerts" className="flexRow">
         <div id="equipement-offerts-list">
-          <h2>Nos&nbsp;équipements</h2>
+          <h2>{loadText(data["services"]["section2"]["title"])}</h2>
           <ul>
-            <li>Pelles mécaniques de 14 à 50 tonnes</li>
-            <li>Mini-pelle</li>
-            <li>Marteaux</li>
-            <li>Chargeurs sur roues</li>
-            <li>Béliers</li>
-            <li>Rouleaux</li>
-            <li>Camions 12 roues</li>
-            <li>Semi&#8209;remorques</li>
-            <li>Hors-route</li>
-            <li>Camions à eau</li>
+            <li>
+              {loadText(data["services"]["section2"]["contenue"]["list1"][0])}
+            </li>
+            <li>
+              {loadText(data["services"]["section2"]["contenue"]["list1"][1])}
+            </li>
+            <li>
+              {loadText(data["services"]["section2"]["contenue"]["list1"][2])}
+            </li>
+            <li>
+              {loadText(data["services"]["section2"]["contenue"]["list1"][3])}
+            </li>
+            <li>
+              {loadText(data["services"]["section2"]["contenue"]["list1"][4])}
+            </li>
+            <li>
+              {loadText(data["services"]["section2"]["contenue"]["list1"][5])}
+            </li>
+            <li>
+              {loadText(data["services"]["section2"]["contenue"]["list1"][6])}
+            </li>
+            <li>
+              {loadText(data["services"]["section2"]["contenue"]["list1"][7])}
+            </li>
+            <li>
+              {loadText(data["services"]["section2"]["contenue"]["list1"][8])}
+            </li>
+            <li>
+              {loadText(data["services"]["section2"]["contenue"]["list1"][9])}
+            </li>
           </ul>
         </div>
 
@@ -138,8 +158,10 @@ function AffaireAvecNous() {
     <div id="affaire-avec-nous-box">
       <div id="affaire-avec-nous-content" className="flexColumn">
         <div className="flexColumn">
-          <h2>Faites affaire avec nous dès maintenant</h2>
-          <a href="mailto:info@equinoxejmp.com">Contactez-nous</a>
+          <h2>{loadText(data["services"]["section3"]["title"])}</h2>
+          <a href="mailto:info@equinoxejmp.com">
+            {loadText(data["services"]["section3"]["contenue"]["boutton1"])}
+          </a>
         </div>
       </div>
     </div>

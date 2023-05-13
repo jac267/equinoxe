@@ -187,44 +187,44 @@ function HomeNosServices2() {
           <div id="home-nos-services2-ul-contaner" className="flexRow">
             <ul>
               <li>
-                {loadText(data["index"]["section3"]["contenue"]["liste1"][0])}
+                {loadText(data["index"]["section3"]["contenue"]["list1"][0])}
               </li>
 
               <li>
-                {loadText(data["index"]["section3"]["contenue"]["liste1"][1])}
+                {loadText(data["index"]["section3"]["contenue"]["list1"][1])}
               </li>
 
               <li>
-                {loadText(data["index"]["section3"]["contenue"]["liste1"][2])}
+                {loadText(data["index"]["section3"]["contenue"]["list1"][2])}
               </li>
 
               <li>
-                {loadText(data["index"]["section3"]["contenue"]["liste1"][3])}
+                {loadText(data["index"]["section3"]["contenue"]["list1"][3])}
               </li>
 
               <li>
-                {loadText(data["index"]["section3"]["contenue"]["liste1"][4])}
+                {loadText(data["index"]["section3"]["contenue"]["list1"][4])}
               </li>
             </ul>
             <ul>
               <li>
-                {loadText(data["index"]["section3"]["contenue"]["liste2"][0])}
+                {loadText(data["index"]["section3"]["contenue"]["list2"][0])}
               </li>
 
               <li>
-                {loadText(data["index"]["section3"]["contenue"]["liste2"][1])}
+                {loadText(data["index"]["section3"]["contenue"]["list2"][1])}
               </li>
 
               <li>
-                {loadText(data["index"]["section3"]["contenue"]["liste2"][2])}
+                {loadText(data["index"]["section3"]["contenue"]["list2"][2])}
               </li>
 
               <li>
-                {loadText(data["index"]["section3"]["contenue"]["liste2"][3])}
+                {loadText(data["index"]["section3"]["contenue"]["list2"][3])}
               </li>
 
               <li>
-                {loadText(data["index"]["section3"]["contenue"]["liste2"][4])}
+                {loadText(data["index"]["section3"]["contenue"]["list2"][4])}
               </li>
             </ul>
           </div>
