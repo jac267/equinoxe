@@ -8,11 +8,11 @@ function Footer() {
         </p>
         <p id="footer-telephone-couriel">
           <strong>{loadText(data["Footer"]["contenue"]["strong2"])}</strong>{" "}
-          819-669-7500<br></br>
+          {loadText(data["Footer"]["contenue"]["text2"])}
           <strong>{loadText(data["Footer"]["contenue"]["strong3"])}</strong>
-          &nbsp;819-669-4866<br></br>
+          {loadText(data["Footer"]["contenue"]["text3"])}
           <strong>{loadText(data["Footer"]["contenue"]["strong4"])}</strong>
-          &nbsp;info@equinoxejmp.com
+          {loadText(data["Footer"]["contenue"]["text4"])}
         </p>
       </div>
       <div id="footer-info2" className="flexColumn">
@@ -22,16 +22,13 @@ function Footer() {
               {loadText(data["Footer"]["contenue"]["strong5"])}
             </strong>
           </p>
-          <p>Outaouais, Ottawa, Gatineau</p>
+          <p>{loadText(data["Footer"]["contenue"]["text5"])}</p>
         </div>
         <div id="footer-heure-ouverture" className="flexRow">
           <p>
             <strong>{loadText(data["Footer"]["contenue"]["strong1"])}</strong>
           </p>
-          <p>
-            Lundi&#8209;Jeudi: 08:00&#8209;17:30<br></br>Vendredi:
-            08:00&#8209;12:00
-          </p>
+          <p>{loadText(data["Footer"]["contenue"]["text6"])}</p>
         </div>
       </div>
 
@@ -50,7 +47,7 @@ function Footer() {
           </a>
         </div>
         <div id="footer-credit">
-          Realisé par: Louis-Philippe Côté et Jacob Chapman
+          {loadText(data["Footer"]["contenue"]["text7"])}
         </div>
       </div>
     </div>

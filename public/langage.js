@@ -146,13 +146,39 @@ var _data = {
         text5: ["Outaouais, Ottawa, Gatineau"],
         strong6: ["Heures d’ouverture"],
         text6: [
-          `Lundi\u2011Jeudi: 08:00\u2011;17:30<br></br>Vendredi:
-        08:00&\u2011;12:00`,
+          `Lundi\u2011Jeudi: 08:00\u201117:30`,
+          `Vendredi:
+        08:00&\u201112:00`,
         ],
         text7: ["Realisé par: Louis-Philippe Côté et Jacob Chapman"],
       },
     },
-    "notre-equipe": {},
+    "notre-equipe": {
+      section1: {
+        title: ["Notre\u2011Équipe"],
+        contenue: {
+          text1: [
+            `Equinoxe JMP et son équipe spécialisée en travaux de génie civil et de
+          voirie relèvent le plus grand des défis, celui de satisfaire pleinement
+          ses clients. Grâce à la force de notre expertise, notre ingéniosité et
+          notre savoir-faire, nous vous proposons une réalisation professionnelle
+          du travail, incluant l’analyse préparatoire de tous les scénarios
+          possibles, et ce, dans le respect absolu des budgets et des échéanciers.
+          Nos équipes multidisciplinaires sont compétentes, dévouées et
+          qualifiées. Elles sauront déployer tous les efforts pour assurer le
+          succès de vos projets.`,
+          ],
+          text2: [
+            `Nous suivons les normes reconnues par le Bureau de normalisation du
+          Québec (`,
+          ],
+          association1: ["BNQ"],
+          text3: [`) et le Cahier des charges et devis généraux (`],
+          association2: ["CCDG"],
+          text4: [`).`],
+        },
+      },
+    },
     realisations: {},
     services: {},
   },
