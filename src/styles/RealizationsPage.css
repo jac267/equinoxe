@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 #BanniereRealisation {
   background-image: url("../../public/images/excavation1.JPEG");
   min-height: 500px;
@@ -63,66 +67,51 @@
   margin: auto;
 }
 
-#my-gallery1 {
+.gallery {
   display: grid;
   width: 70%;
   height: 100%;
+  margin: 5%;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 5px;
+  grid-template-rows: repeat(4, 10vw);
+  grid-gap: 15px;
   overflow: hidden;
-  margin: 5%;
 }
 
-#my-gallery2 {
-  display: grid;
-  width: 70%;
-  height: 100%;
-  grid-template-columns: repeat(6, 1fr);
-  grid-gap: 5px;
-  overflow: hidden;
-  margin: 5%;
-}
-
-.grid img {
+.gallery img{
   width: 100%;
   height: 100%;
   object-fit: cover;
-  background-position: center;
 }
 
-#img5 {
-  grid-row: 1/3;
-  grid-column: 3/5;
+.gallery img:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
 }
 
-#img6 {
-  grid-row: 1/2;
+#img5{
   grid-column: 1/2;
+  grid-row: 2/4;
 }
 
-#img7 {
-  grid-row: 2/3;
-  grid-column: 1/2;
-}
-
-#img8 {
-  grid-row: 1/3;
+#img7{
   grid-column: 2/4;
-}
-
-#img9 {
-  grid-row: 1/2;
-  grid-column: 4/5;
-}
-
-#img10 {
   grid-row: 2/3;
-  grid-column: 4/5;
 }
 
-#img11 {
+#img10{
+  grid-column: 3/5;
+  grid-row: 3/5;
+}
+
+#img12{
+  grid-column: 1/3;
   grid-row: 1/3;
-  grid-column: 5/7;
+}
+
+#img17{
+  grid-column: 3/5;
+  grid-row: 2/5;
 }
 
 .subtitle {
@@ -138,9 +127,6 @@
   .container {
     width: 100%;
   }
-  .grid {
-    width: 100%;
-  }
 
   .subtitle {
     width: 100%;
@@ -149,20 +135,46 @@
   .subtitle:nth-child(1) {
     order: 1;
   }
-  .grid:nth-child(1) {
+  .gallery:nth-child(1) {
     order: 2;
   }
   .subtitle:nth-child(2) {
     margin-top: 2rem;
     order: 1;
   }
-  .grid:nth-child(2) {
+  .gallery:nth-child(2) {
     order: 2;
+  }
+  .sub-container {
+    width: 100%;
+  }
+
+  .gallery {
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 15vw);
   }
 }
 
 @media (max-width: 800px) {
   #info {
     width: 90%;
+  }
+
+  .gallery:nth-child(1) {
+    width: 80%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 40vw);
+  }
+  
+  .gallery:nth-child(2) {
+    width: 80%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 40vw);
+  }
+
+  .img{
+    grid-column: auto !important;
+    grid-row: auto !important;
   }
 }
