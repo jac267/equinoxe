@@ -256,7 +256,25 @@ var _data = {
         contenue: { boutton1: ["Contactez-nous"] },
       },
     },
-    realisations: {},
+    realisations: {
+      title: ["Réalisations"],
+      text1: [
+        `Equinoxe JMP est heureux de vous présenter quelques travaux et
+      projets récemment réalisés avec succès pour nos clients
+      résidentiels, commerciaux et institutionnels. Que ce soit pour des
+      travaux d'excavation ou de génie civil, vous pouvez nous faire
+      confiance. Notre main-d'oeuvre compétente et notre équipe
+      mulitdisciplinaire saura répondre à vos besoins.`,
+      ],
+      text2: [
+        `Profitez de l'expertise de notre équipe spécialisée en faisant appel
+      à Equinoxe JMP dès aujourd'hui.`,
+      ],
+      contenue: {
+        "sous-titre1": ["Travaux d'excavation"],
+        "sous-titre2": ["Projets de génie civil"],
+      },
+    },
   },
   En: {
     Navbar: {},
