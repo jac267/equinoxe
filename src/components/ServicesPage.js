@@ -33,7 +33,7 @@ function ServicesOfferts() {
             <h3>Excavation</h3>
             <p>
               Nos services d'excavation incluent l'excavation de tranchées, le
-              drainage, les bassins de rétention, le remblayage, le roc et l'excavation
+              drainage, les bassins de rétention, le remblayage, le bris de roc et l'excavation
               de bâtiments résidentiels et commerciaux.
             </p>
           </div>
