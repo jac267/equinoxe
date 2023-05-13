@@ -3,7 +3,14 @@
 
 var _data = {
   Fr: {
-    Navbar: {},
+    Navbar: {
+      contenue: {
+        anchor1: ["ACCUEIL"],
+        anchor2: ["NOTRE\xa0ÉQUIPE"],
+        anchor3: ["SERVICES"],
+        anchor4: ["RÉALISATIONS"],
+      },
+    },
     index: {
       title: ["UNE ENTREPRISE FAMILIALE", "DEPUIS 1974"],
       section1: {

@@ -22,14 +22,14 @@ function NavBar() {
               className="text-align-left"
               href="../public/index.html"
             >
-              ACCUEIL
+              {loadText(data["Navbar"]["contenue"]["anchor1"])}
             </a>
             <a
               id="notre-equipe"
               className="text-align-right"
               href="../public/notre-equipe.html"
             >
-              NOTRE&nbsp;ÉQUIPE
+              {loadText(data["Navbar"]["contenue"]["anchor2"])}
             </a>
           </div>
           <div className="navigation-buttons flexRow">
@@ -38,14 +38,14 @@ function NavBar() {
               className="text-align-left"
               href="../public/services.html"
             >
-              SERVICES
+              {loadText(data["Navbar"]["contenue"]["anchor3"])}
             </a>
             <a
               id="realisation"
               className="text-align-right"
               href="../public/realisations.html"
             >
-              RÉALISATIONS
+              {loadText(data["Navbar"]["contenue"]["anchor4"])}
             </a>
           </div>
         </div>
@@ -58,16 +58,16 @@ function NavBar() {
 
         <ul id="menu">
           <a href="../public/index.html">
-            <li>ACCUEIL</li>
+            <li>{loadText(data["Navbar"]["contenue"]["anchor1"])}</li>
           </a>
           <a href="../public/notre-equipe.html">
-            <li>NOTRE&nbsp;ÉQUIPE</li>
+            <li>{loadText(data["Navbar"]["contenue"]["anchor2"])}</li>
           </a>
           <a href="../public/services.html">
-            <li>SERVICES</li>
+            <li>{loadText(data["Navbar"]["contenue"]["anchor3"])}</li>
           </a>
           <a href="../public/realisations.html">
-            <li>RÉALISATION</li>
+            <li>{loadText(data["Navbar"]["contenue"]["anchor4"])}</li>
           </a>
         </ul>
       </div>
