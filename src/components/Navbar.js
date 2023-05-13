@@ -15,38 +15,47 @@ function NavBar() {
           </a>
         </div>
 
-        <div id="navigation-button">
-          <div className="navigation-buttons flexRow">
-            <a
-              id="acceuil"
-              className="text-align-left"
-              href="../public/index.html"
-            >
-              {loadText(data["Navbar"]["contenue"]["anchor1"])}
-            </a>
-            <a
-              id="notre-equipe"
-              className="text-align-right"
-              href="../public/notre-equipe.html"
-            >
-              {loadText(data["Navbar"]["contenue"]["anchor2"])}
-            </a>
+        <div id="nav-button-and-lang">
+          <div id="lang-toggle">
+            <label class="toggle">
+              {isChecked()}
+              <span class="slider"></span>
+              <span class="labels" data-on="FR" data-off="EN"></span>
+            </label>
           </div>
-          <div className="navigation-buttons flexRow">
-            <a
-              id="services"
-              className="text-align-left"
-              href="../public/services.html"
-            >
-              {loadText(data["Navbar"]["contenue"]["anchor3"])}
-            </a>
-            <a
-              id="realisation"
-              className="text-align-right"
-              href="../public/realisations.html"
-            >
-              {loadText(data["Navbar"]["contenue"]["anchor4"])}
-            </a>
+          <div id="navigation-button">
+            <div className="navigation-buttons flexRow">
+              <a
+                id="acceuil"
+                className="text-align-left"
+                href="../public/index.html"
+              >
+                {loadText(data["Navbar"]["contenue"]["anchor1"])}
+              </a>
+              <a
+                id="notre-equipe"
+                className="text-align-right"
+                href="../public/notre-equipe.html"
+              >
+                {loadText(data["Navbar"]["contenue"]["anchor2"])}
+              </a>
+            </div>
+            <div className="navigation-buttons flexRow">
+              <a
+                id="services"
+                className="text-align-left"
+                href="../public/services.html"
+              >
+                {loadText(data["Navbar"]["contenue"]["anchor3"])}
+              </a>
+              <a
+                id="realisation"
+                className="text-align-right"
+                href="../public/realisations.html"
+              >
+                {loadText(data["Navbar"]["contenue"]["anchor4"])}
+              </a>
+            </div>
           </div>
         </div>
       </div>

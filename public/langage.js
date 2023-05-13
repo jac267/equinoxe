@@ -277,7 +277,14 @@ var _data = {
     },
   },
   En: {
-    Navbar: {},
+    Navbar: {
+      contenue: {
+        anchor1: ["HOME"],
+        anchor2: ["NOTRE\xa0ÉQUIPE"],
+        anchor3: ["SERVICES"],
+        anchor4: ["RÉALISATIONS"],
+      },
+    },
     index: {
       title: ["UNE ENTREPRISE FAMILIALE", "DEPUIS 1974"],
       section1: {
@@ -373,14 +380,14 @@ var _data = {
           besoins du client.`,
           ],
           "sous-titre1": ["Choisir Equinoxe JMP, c’est opter pour:"],
-          liste1: [
+          list1: [
             ["un partenariat d’affaires"],
             ["une équipe dynamique et multidisciplinaire"],
             ["un contremaître expérimenté sur chaque chantier"],
             ["une main-d’œuvre compétente"],
             ["une relation solide et chaleureuse"],
           ],
-          liste2: [
+          list2: [
             ["un suivi serré des budgets et des échéanciers"],
             ["une planification efficace et rigoureuse"],
             ["une expertise reconnue"],
@@ -399,9 +406,148 @@ var _data = {
         title: ["Associations professionnelles"],
       },
     },
-    Footer: {},
-    "notre-equipe": {},
-    realisations: {},
-    services: {},
+    Footer: {
+      contenue: {
+        strong1: ["Equinoxe JMP", ""],
+        text1: ["1651, rue Routhier", "Gatineau,\xa0Québec", "J8R\xa03Y6"],
+        strong2: ["Téléphone\xa0:"],
+        text2: ["819-669-7500", ""],
+        strong3: ["Télécopieur\xa0:"],
+        text3: ["\xa0819-669-4866", ""],
+        strong4: ["Courriel\xa0:"],
+        text4: ["\xa0info@equinoxejmp.com"],
+        strong5: ["Zone de\xa0service"],
+        text5: ["Outaouais, Ottawa, Gatineau"],
+        strong6: ["Heures d’ouverture"],
+        text6: [
+          `Lundi\u2011Jeudi: 08:00\u201117:30`,
+          `Vendredi:
+        08:00&\u201112:00`,
+        ],
+        text7: ["Realisé par: Louis-Philippe Côté et Jacob Chapman"],
+      },
+    },
+    "notre-equipe": {
+      section1: {
+        title: ["Notre\u2011Équipe"],
+        contenue: {
+          text1: [
+            `Equinoxe JMP et son équipe spécialisée en travaux de génie civil et de
+          voirie relèvent le plus grand des défis, celui de satisfaire pleinement
+          ses clients. Grâce à la force de notre expertise, notre ingéniosité et
+          notre savoir-faire, nous vous proposons une réalisation professionnelle
+          du travail, incluant l’analyse préparatoire de tous les scénarios
+          possibles, et ce, dans le respect absolu des budgets et des échéanciers.
+          Nos équipes multidisciplinaires sont compétentes, dévouées et
+          qualifiées. Elles sauront déployer tous les efforts pour assurer le
+          succès de vos projets.`,
+          ],
+          text2: [
+            `Nous suivons les normes reconnues par le Bureau de normalisation du
+          Québec (`,
+          ],
+          association1: ["BNQ"],
+          text3: [`) et le Cahier des charges et devis généraux (`],
+          association2: ["CCDG"],
+          text4: [`).`],
+        },
+      },
+    },
+    services: {
+      title: ["Services"],
+      text1: [
+        `Notre équipe expérimentée pourra vous venir en aide`,
+        `pour tous vos projets de petite ou grande envergure`,
+      ],
+      section1: {
+        contenue: {
+          "sous-titre1": ["Excavation"],
+          text1: [
+            `Nos services d'excavation incluent l'excavation de tranchées, le
+          drainage, les bassins de rétention, le remblayage, le bris de roc et l'excavation
+          de bâtiments résidentiels et commerciaux.`,
+          ],
+          "sous-titre2": ["Transport de contaminé"],
+          text2: [
+            "Nous offrons la gestion et la disposition de contaminé selon les normes du MELCCFP et Traces Québec.",
+          ],
+          "sous-titre3": ["Génie civil et voirie"],
+          text3: [
+            `Notre équipement performant et nos années d’expérience dans le
+          domaine nous permettent de réaliser des travaux de tous genres :`,
+          ],
+          list1: [
+            ["Égouts"],
+            ["Aqueducs"],
+            ["Aménagement et réfection de stationnements"],
+            ["Aménagement et réfection de ponceaux"],
+            ["Aménagement et réfection de routes et chemins publics"],
+          ],
+          "sous-titre4": ["Location de machines lourdes"],
+          text4: [
+            `Equinoxe JMP dispose d’une vaste flotte de camions, machineries
+          lourdes et outils spécialisés. Que ce soit pour profiter de nos
+          équipements de pointe avec notre service de location à l’heure ou
+          pour demander l’expertise d’un de nos opérateurs qualifiés, vous
+          pouvez compter sur nous.`,
+          ],
+          "sous-titre5": ["Gestion de projet"],
+          text5: [
+            `En tant que gestionnaire de projet, notre rôle principal est de
+          suivre l’évolution de votre projet en respectant les calendriers
+          et les budgets préparés et soumis. Nos responsabilités incluent
+          également la négociation des contrats auprès des professionnels du
+          domaine (fournisseurs, sous-traitants, architectes, ingénieurs,
+          etc.)`,
+          ],
+          text6: [
+            `Finalement, nous assurons un contrôle de la qualité,
+          rédigeons différents rapports, achetons les matériaux nécessaires,
+          embauchons le personnel et supervisons le travail des
+          sous-traitants.`,
+          ],
+        },
+      },
+      section2: {
+        title: ["Nos\xa0équipements"],
+        contenue: {
+          list1: [
+            ["Pelles mécaniques de 14 à 50 tonnes"],
+            ["Mini-pelle"],
+            ["Marteaux"],
+            ["Chargeurs sur roues"],
+            ["Béliers"],
+            ["Rouleaux"],
+            ["Camions 12 roues"],
+            ["Semi\u2011remorques"],
+            ["Hors-route"],
+            ["Camions à eau"],
+          ],
+        },
+      },
+      section3: {
+        title: ["Faites affaire avec nous dès maintenant"],
+        contenue: { boutton1: ["Contactez-nous"] },
+      },
+    },
+    realisations: {
+      title: ["Réalisations"],
+      text1: [
+        `Equinoxe JMP est heureux de vous présenter quelques travaux et
+      projets récemment réalisés avec succès pour nos clients
+      résidentiels, commerciaux et institutionnels. Que ce soit pour des
+      travaux d'excavation ou de génie civil, vous pouvez nous faire
+      confiance. Notre main-d'oeuvre compétente et notre équipe
+      mulitdisciplinaire saura répondre à vos besoins.`,
+      ],
+      text2: [
+        `Profitez de l'expertise de notre équipe spécialisée en faisant appel
+      à Equinoxe JMP dès aujourd'hui.`,
+      ],
+      contenue: {
+        "sous-titre1": ["Travaux d'excavation"],
+        "sous-titre2": ["Projets de génie civil"],
+      },
+    },
   },
 };

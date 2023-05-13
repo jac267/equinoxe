@@ -71,10 +71,15 @@
   color: #000;
 }
 
-#navigation-button {
-  position: relative;
-  right: 0px;
+#nav-button-and-lang {
+  display: flex;
   width: 100%;
+  flex-direction: flow-root;
+
+  justify-content: space-between;
+}
+
+#navigation-button {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -83,7 +88,103 @@
   column-gap: 2.5rem;
   padding-right: 2.5rem;
 }
+#lang-toggle {
+  display: flex;
+  flex-direction: row;
 
+  align-items: flex-end;
+  justify-content: end;
+  padding-right: 20px;
+}
+
+.toggle {
+  --width: 80px;
+  --height: calc(var(--width) / 3);
+
+  position: relative;
+  align-self: center;
+  align-items: flex-end;
+  display: inline-block;
+  width: var(--width);
+  height: var(--height);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+  border-radius: var(--height);
+  cursor: pointer;
+}
+
+.toggle input {
+  display: none;
+}
+
+.toggle .slider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: var(--height);
+  background-color: #ccc;
+  transition: all 0.4s ease-in-out;
+}
+
+.toggle .slider::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: calc(var(--height));
+  height: calc(var(--height));
+  border-radius: calc(var(--height) / 2);
+  background-color: #fff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+  transition: all 0.4s ease-in-out;
+}
+
+.toggle input:checked + .slider {
+  background-color: #2196f3;
+}
+
+.toggle input:checked + .slider::before {
+  transform: translateX(calc(var(--width) - var(--height)));
+}
+.toggle .labels {
+  position: absolute;
+  top: 8px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 12px;
+  font-family: sans-serif;
+  transition: all 0.4s ease-in-out;
+}
+
+.toggle .labels::after {
+  content: attr(data-off);
+  position: absolute;
+  right: 5px;
+  color: #4d4d4d;
+  opacity: 1;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+  transition: all 0.4s ease-in-out;
+}
+
+.toggle .labels::before {
+  content: attr(data-on);
+  position: absolute;
+  left: 5px;
+  color: #ffffff;
+  opacity: 0;
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.4);
+  transition: all 0.4s ease-in-out;
+}
+
+.toggle input:checked ~ .labels::after {
+  opacity: 0;
+}
+
+.toggle input:checked ~ .labels::before {
+  opacity: 1;
+}
 .navigation-buttons {
   display: flex;
   width: auto;
@@ -111,6 +212,38 @@
   #logo div {
     max-width: 431px;
     min-width: 50vw;
+  }
+
+  #nav-button-and-lang {
+    display: flex;
+    width: 100%;
+    flex-direction: flow-root;
+
+    justify-content: space-around;
+  }
+
+  #lang-toggle {
+    display: flex;
+    flex-direction: row;
+
+    align-items: flex-end;
+    justify-content: end;
+    padding-right: 20px;
+  }
+
+  .toggle {
+    --width: 10vw;
+    --height: 5vw;
+
+    position: relative;
+    align-self: center;
+    align-items: flex-end;
+    display: inline-block;
+    width: var(--width);
+    height: var(--height);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+    border-radius: var(--height);
+    cursor: pointer;
   }
 
   #navigation-button {
