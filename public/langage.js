@@ -132,7 +132,26 @@ var _data = {
         title: ["Associations professionnelles"],
       },
     },
-    Footer: {},
+    Footer: {
+      contenue: {
+        strong1: ["Equinoxe JMP", ""],
+        text1: ["1651, rue Routhier", "Gatineau,\xa0Québec", "J8R\xa03Y6"],
+        strong2: ["Téléphone\xa0:"],
+        text2: ["819-669-7500", ""],
+        strong3: ["Télécopieur\xa0:"],
+        text3: ["\xa0819-669-4866", ""],
+        strong4: ["Courriel\xa0:"],
+        text4: ["\xa0info@equinoxejmp.com"],
+        strong5: ["Zone de\xa0service"],
+        text5: ["Outaouais, Ottawa, Gatineau"],
+        strong6: ["Heures d’ouverture"],
+        text6: [
+          `Lundi\u2011Jeudi: 08:00\u2011;17:30<br></br>Vendredi:
+        08:00&\u2011;12:00`,
+        ],
+        text7: ["Realisé par: Louis-Philippe Côté et Jacob Chapman"],
+      },
+    },
     "notre-equipe": {},
     realisations: {},
     services: {},
