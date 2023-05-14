@@ -72,15 +72,15 @@ function HomeVotreEntrepreneurGeneral() {
           />
           <HomeButtonExplorer
             title={loadText(
-              data["index"]["section1"]["contenue"]["ButtonExplorer2"]["title"]
+              data["index"]["section1"]["contenue"]["ButtonExplorer3"]["title"]
             )}
             text={loadText(
-              data["index"]["section1"]["contenue"]["ButtonExplorer2"][
+              data["index"]["section1"]["contenue"]["ButtonExplorer3"][
                 "contenue"
               ]["text1"]
             )}
             buttonText={loadText(
-              data["index"]["section1"]["contenue"]["ButtonExplorer2"][
+              data["index"]["section1"]["contenue"]["ButtonExplorer3"][
                 "contenue"
               ]["boutton1"]
             )}

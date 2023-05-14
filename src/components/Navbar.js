@@ -17,10 +17,10 @@ function NavBar() {
 
         <div id="nav-button-and-lang">
           <div id="lang-toggle">
-            <label class="toggle">
+            <label className="toggle">
               {isChecked()}
-              <span class="slider"></span>
-              <span class="labels" data-on="FR" data-off="EN"></span>
+              <span className="slider"></span>
+              <span className="labels" data-on="FR" data-off="EN"></span>
             </label>
           </div>
           <div id="navigation-button">
