@@ -60,7 +60,7 @@ function NavBar() {
         </div>
       </div>
       <div id="menuToggle">
-        <input type="checkbox" />
+        <input type="checkbox"/>
         <span></span>
         <span></span>
         <span></span>
