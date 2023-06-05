@@ -19,12 +19,12 @@ var _data = {
         ],
         contenue: {
           text1: [
-            `Au tout début, Construction Bouladier, fondé par M. Michel Bouladier,
+            `Fondé en 1974 par M.Michel Bouladier, Construction Bouladier
           concentrait ses activités dans la location de machinerie lourde,
           spécialisée en génie civil. C’est en 2005 que Julie et Pascal, fille
           et fils de Michel, se joignent à Michel et fondent EQUINOXE JMP.
           L’entreprise devient alors Entrepreneur général spécialisé en égouts
-          et aqueducs. Equinoxe JMP compte maintenant près de 20 années
+          et aqueducs. Equinoxe JMP compte maintenant près de 50 années
           d’expérience en exécution et gestion de travaux de génie civil et
           excavation. Avec les années plusieurs ressources clés se sont joint
           à l’équipe et c’est maintenant plus de 35 employés qui partagent
@@ -293,12 +293,12 @@ var _data = {
         ],
         contenue: {
           text1: [
-            `At the very beginning, Construction Bouladier, founded by Mr. Michel Bouladier,
+            `Founded by Mr. Michel Bouladier in 1974, Construction Bouladier
             concentrated its activities in the rental of heavy machinery,
             specializing in civil engineering. It was in 2005 that Julie and Pascal, daughter
             and son of Michel, joined Michel and founded EQUINOXE JMP.
             The company then became a general contractor specializing in sewers
-            and aqueducts. Equinoxe JMP now has almost 20 years old
+            and aqueducts. Equinoxe JMP now has almost 50 years old
             of experience in the execution and management of civil engineering works and
             excavation. Over the years, several key resources have joined 
             the team and it is now more than 35 employees who share

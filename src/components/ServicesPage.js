@@ -138,12 +138,11 @@ function EquipementOfferts() {
             <img src="../public/images/pelle kubota Gilbert - Copie.jpg"></img>
             <img src="../public/images/69194333177__63F6DDDB-121B-4344-A745-C87ECE95A2A2.jpg"></img>
             <img
-              id="train-image"
-              src="../public/images/70005550394__64e8a8c9-731a-4388-9413-52804b770531-1-edited-2.jpg"
+              src="../public/images/MOXY_MT41.jpg"
             ></img>
           </div>
           <div className="flexRow">
-            <img src="../public/images/D5820489-0FA7-4960-A257-C6DED964E30F.jpg"></img>
+            <img src="../public/images/Belier.jpg"></img>
             <img src="../public/images/Pelle Hitachi ZX350.jpg"></img>
             <img src="../public/images/Pelle Caterpillar 349F.jpg"></img>
           </div>
